@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: b218a049e9a7a774d8a9d853aedb2e0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7790304473195281292
+    second: mageSpriteSheet-Picsart-BackgroundRemover_0
+  - first:
+      213: 2563577419639115053
+    second: mageSpriteSheet-Picsart-BackgroundRemover_1
+  - first:
+      213: 9185352671479091878
+    second: mageSpriteSheet-Picsart-BackgroundRemover_2
+  - first:
+      213: 5708177492657281471
+    second: mageSpriteSheet-Picsart-BackgroundRemover_3
+  - first:
+      213: 4253138693542793873
+    second: mageSpriteSheet-Picsart-BackgroundRemover_4
+  - first:
+      213: 8549229025922026798
+    second: mageSpriteSheet-Picsart-BackgroundRemover_5
+  - first:
+      213: -8413193360678650093
+    second: mageSpriteSheet-Picsart-BackgroundRemover_6
+  - first:
+      213: -4618919123716700749
+    second: mageSpriteSheet-Picsart-BackgroundRemover_7
+  - first:
+      213: 4511101491345958620
+    second: mageSpriteSheet-Picsart-BackgroundRemover_8
+  - first:
+      213: 6986770341264131933
+    second: mageSpriteSheet-Picsart-BackgroundRemover_9
+  - first:
+      213: 4875626385304567073
+    second: mageSpriteSheet-Picsart-BackgroundRemover_10
+  - first:
+      213: -1304876722289213874
+    second: mageSpriteSheet-Picsart-BackgroundRemover_11
+  - first:
+      213: 2016396128734024957
+    second: mageSpriteSheet-Picsart-BackgroundRemover_12
+  - first:
+      213: -7304573029281522228
+    second: mageSpriteSheet-Picsart-BackgroundRemover_13
+  - first:
+      213: 3926222707925624521
+    second: mageSpriteSheet-Picsart-BackgroundRemover_14
+  - first:
+      213: 9139152648472490833
+    second: mageSpriteSheet-Picsart-BackgroundRemover_15
+  - first:
+      213: -3951685525508236940
+    second: mageSpriteSheet-Picsart-BackgroundRemover_16
+  - first:
+      213: 4089709111317243341
+    second: mageSpriteSheet-Picsart-BackgroundRemover_17
+  - first:
+      213: -5614576195928433080
+    second: mageSpriteSheet-Picsart-BackgroundRemover_18
+  - first:
+      213: -8943234512488177264
+    second: mageSpriteSheet-Picsart-BackgroundRemover_19
+  - first:
+      213: 5341400687261544624
+    second: mageSpriteSheet-Picsart-BackgroundRemover_20
+  - first:
+      213: 8293941567942569285
+    second: mageSpriteSheet-Picsart-BackgroundRemover_21
+  - first:
+      213: -2958618646329619628
+    second: mageSpriteSheet-Picsart-BackgroundRemover_22
+  - first:
+      213: -2042113706313790012
+    second: mageSpriteSheet-Picsart-BackgroundRemover_23
+  - first:
+      213: 958200857321761383
+    second: mageSpriteSheet-Picsart-BackgroundRemover_24
+  - first:
+      213: 8832644443071000803
+    second: mageSpriteSheet-Picsart-BackgroundRemover_25
+  - first:
+      213: -5823734792590789051
+    second: mageSpriteSheet-Picsart-BackgroundRemover_26
+  - first:
+      213: -7329553633844675198
+    second: mageSpriteSheet-Picsart-BackgroundRemover_27
+  - first:
+      213: -3056898052645992855
+    second: mageSpriteSheet-Picsart-BackgroundRemover_28
+  - first:
+      213: -3827662696326208346
+    second: mageSpriteSheet-Picsart-BackgroundRemover_29
+  - first:
+      213: 4412149322264386655
+    second: mageSpriteSheet-Picsart-BackgroundRemover_30
+  - first:
+      213: 1163884539814713621
+    second: mageSpriteSheet-Picsart-BackgroundRemover_31
+  - first:
+      213: -2651229203538008923
+    second: mageSpriteSheet-Picsart-BackgroundRemover_32
+  - first:
+      213: -4224249118877021139
+    second: mageSpriteSheet-Picsart-BackgroundRemover_33
+  - first:
+      213: 6292943459478989773
+    second: mageSpriteSheet-Picsart-BackgroundRemover_34
+  - first:
+      213: -6150209498571136795
+    second: mageSpriteSheet-Picsart-BackgroundRemover_35
+  - first:
+      213: -276801214047705689
+    second: mageSpriteSheet-Picsart-BackgroundRemover_36
+  - first:
+      213: 4881590358202828727
+    second: mageSpriteSheet-Picsart-BackgroundRemover_37
+  - first:
+      213: 9202840583405906842
+    second: mageSpriteSheet-Picsart-BackgroundRemover_38
+  - first:
+      213: 5479165519363617520
+    second: mageSpriteSheet-Picsart-BackgroundRemover_39
+  - first:
+      213: 9116025160429815192
+    second: mageSpriteSheet-Picsart-BackgroundRemover_40
+  - first:
+      213: 7458645269976368591
+    second: mageSpriteSheet-Picsart-BackgroundRemover_41
+  - first:
+      213: -5741054143636242725
+    second: mageSpriteSheet-Picsart-BackgroundRemover_42
+  - first:
+      213: -1898743294639408029
+    second: mageSpriteSheet-Picsart-BackgroundRemover_43
+  - first:
+      213: 2232241123245352966
+    second: mageSpriteSheet-Picsart-BackgroundRemover_44
+  - first:
+      213: -2602300284296738191
+    second: mageSpriteSheet-Picsart-BackgroundRemover_45
+  - first:
+      213: 5408046823305573166
+    second: mageSpriteSheet-Picsart-BackgroundRemover_46
+  - first:
+      213: 889676458723848335
+    second: mageSpriteSheet-Picsart-BackgroundRemover_47
+  - first:
+      213: 4170299584562321190
+    second: mageSpriteSheet-Picsart-BackgroundRemover_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 734
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4740f0f3b5743e390800000000000000
+      internalID: -7790304473195281292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 734
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d4dcba418a39320800000000000000
+      internalID: 2563577419639115053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 642
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25230b69de87f70800000000000000
+      internalID: 9185352671479091878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 642
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb997b4bf25873f40800000000000000
+      internalID: 5708177492657281471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 550
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19256119b1f260b30800000000000000
+      internalID: 4253138693542793873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 550
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d8a89d086f4a670800000000000000
+      internalID: 8549229025922026798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 550
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ff216a6355e3b80800000000000000
+      internalID: -8413193360678650093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 550
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b58b90778d46efb0800000000000000
+      internalID: -4618919123716700749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 458
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd62961d7e6aa9e30800000000000000
+      internalID: 4511101491345958620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 458
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57884e9b9ef5f060800000000000000
+      internalID: 6986770341264131933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 458
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db9918d54b9a340800000000000000
+      internalID: 4875626385304567073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 458
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e764cd88524ede0800000000000000
+      internalID: -1304876722289213874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 458
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df41aa3889dabfb10800000000000000
+      internalID: 2016396128734024957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_13
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 458
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd96c9f781f0aa90800000000000000
+      internalID: -7304573029281522228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 458
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6aaf630cebc7630800000000000000
+      internalID: 3926222707925624521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_15
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 458
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153f54899eac4de70800000000000000
+      internalID: 9139152648472490833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 366
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479570493fac829c0800000000000000
+      internalID: -3951685525508236940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 366
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc52ebeb4c091c830800000000000000
+      internalID: 4089709111317243341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 366
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e525572b40512b0800000000000000
+      internalID: -5614576195928433080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_19
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 283
+        width: 67
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091e02c189f33e380800000000000000
+      internalID: -8943234512488177264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 366
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0704700a7702a40800000000000000
+      internalID: 5341400687261544624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_21
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 366
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d2011b9eff91370800000000000000
+      internalID: 8293941567942569285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 274
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0daf3400e0f6d0800000000000000
+      internalID: -2958618646329619628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 274
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdc5385764f8a3e0800000000000000
+      internalID: -2042113706313790012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 280
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a632c5a963c4d00800000000000000
+      internalID: 958200857321761383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 282
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e03398d25bd39a70800000000000000
+      internalID: 8832644443071000803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_26
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 274
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546fa85cf00fd2fa0800000000000000
+      internalID: -5823734792590789051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 274
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db38cbdc1384a90800000000000000
+      internalID: -7329553633844675198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_28
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 274
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966c371da67b395d0800000000000000
+      internalID: -3056898052645992855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 182
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a46679be0961eac0800000000000000
+      internalID: -3827662696326208346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 182
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c9c899e6a1b3d30800000000000000
+      internalID: 4412149322264386655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519993b82d2f62010800000000000000
+      internalID: 1163884539814713621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 90
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4a9f01611f43bd0800000000000000
+      internalID: -2651229203538008923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 90
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c0492bec37065c0800000000000000
+      internalID: -4224249118877021139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 90
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbecd52cb6055750800000000000000
+      internalID: 6292943459478989773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_35
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 87
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e02f67db0116aaa0800000000000000
+      internalID: -6150209498571136795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 90
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a52a4b23ca982cf0800000000000000
+      internalID: -276801214047705689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_37
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 90
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7c6a72194eeb340800000000000000
+      internalID: 4881590358202828727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_38
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 90
+        width: 87
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b257a70ce07bf70800000000000000
+      internalID: 9202840583405906842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_39
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 90
+        width: 88
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2bc3f8208e90c40800000000000000
+      internalID: 5479165519363617520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89541faa590a28e70800000000000000
+      internalID: 9116025160429815192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5c69efa5e628760800000000000000
+      internalID: 7458645269976368591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdef64c7cada350b0800000000000000
+      internalID: -5741054143636242725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_43
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 82
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cfc53980f46a5e0800000000000000
+      internalID: -1898743294639408029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_44
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608ee0489738afe10800000000000000
+      internalID: 2232241123245352966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a4893dda5c2ebd0800000000000000
+      internalID: -2602300284296738191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23fec7ceed3d0b40800000000000000
+      internalID: 5408046823305573166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_47
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8033478604c85c00800000000000000
+      internalID: 889676458723848335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mageSpriteSheet-Picsart-BackgroundRemover_48
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627dbc08061efd930800000000000000
+      internalID: 4170299584562321190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c7bd4d03deec42439f19256e66aace3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mageSpriteSheet-Picsart-BackgroundRemover_0: -7790304473195281292
+      mageSpriteSheet-Picsart-BackgroundRemover_1: 2563577419639115053
+      mageSpriteSheet-Picsart-BackgroundRemover_10: 4875626385304567073
+      mageSpriteSheet-Picsart-BackgroundRemover_11: -1304876722289213874
+      mageSpriteSheet-Picsart-BackgroundRemover_12: 2016396128734024957
+      mageSpriteSheet-Picsart-BackgroundRemover_13: -7304573029281522228
+      mageSpriteSheet-Picsart-BackgroundRemover_14: 3926222707925624521
+      mageSpriteSheet-Picsart-BackgroundRemover_15: 9139152648472490833
+      mageSpriteSheet-Picsart-BackgroundRemover_16: -3951685525508236940
+      mageSpriteSheet-Picsart-BackgroundRemover_17: 4089709111317243341
+      mageSpriteSheet-Picsart-BackgroundRemover_18: -5614576195928433080
+      mageSpriteSheet-Picsart-BackgroundRemover_19: -8943234512488177264
+      mageSpriteSheet-Picsart-BackgroundRemover_2: 9185352671479091878
+      mageSpriteSheet-Picsart-BackgroundRemover_20: 5341400687261544624
+      mageSpriteSheet-Picsart-BackgroundRemover_21: 8293941567942569285
+      mageSpriteSheet-Picsart-BackgroundRemover_22: -2958618646329619628
+      mageSpriteSheet-Picsart-BackgroundRemover_23: -2042113706313790012
+      mageSpriteSheet-Picsart-BackgroundRemover_24: 958200857321761383
+      mageSpriteSheet-Picsart-BackgroundRemover_25: 8832644443071000803
+      mageSpriteSheet-Picsart-BackgroundRemover_26: -5823734792590789051
+      mageSpriteSheet-Picsart-BackgroundRemover_27: -7329553633844675198
+      mageSpriteSheet-Picsart-BackgroundRemover_28: -3056898052645992855
+      mageSpriteSheet-Picsart-BackgroundRemover_29: -3827662696326208346
+      mageSpriteSheet-Picsart-BackgroundRemover_3: 5708177492657281471
+      mageSpriteSheet-Picsart-BackgroundRemover_30: 4412149322264386655
+      mageSpriteSheet-Picsart-BackgroundRemover_31: 1163884539814713621
+      mageSpriteSheet-Picsart-BackgroundRemover_32: -2651229203538008923
+      mageSpriteSheet-Picsart-BackgroundRemover_33: -4224249118877021139
+      mageSpriteSheet-Picsart-BackgroundRemover_34: 6292943459478989773
+      mageSpriteSheet-Picsart-BackgroundRemover_35: -6150209498571136795
+      mageSpriteSheet-Picsart-BackgroundRemover_36: -276801214047705689
+      mageSpriteSheet-Picsart-BackgroundRemover_37: 4881590358202828727
+      mageSpriteSheet-Picsart-BackgroundRemover_38: 9202840583405906842
+      mageSpriteSheet-Picsart-BackgroundRemover_39: 5479165519363617520
+      mageSpriteSheet-Picsart-BackgroundRemover_4: 4253138693542793873
+      mageSpriteSheet-Picsart-BackgroundRemover_40: 9116025160429815192
+      mageSpriteSheet-Picsart-BackgroundRemover_41: 7458645269976368591
+      mageSpriteSheet-Picsart-BackgroundRemover_42: -5741054143636242725
+      mageSpriteSheet-Picsart-BackgroundRemover_43: -1898743294639408029
+      mageSpriteSheet-Picsart-BackgroundRemover_44: 2232241123245352966
+      mageSpriteSheet-Picsart-BackgroundRemover_45: -2602300284296738191
+      mageSpriteSheet-Picsart-BackgroundRemover_46: 5408046823305573166
+      mageSpriteSheet-Picsart-BackgroundRemover_47: 889676458723848335
+      mageSpriteSheet-Picsart-BackgroundRemover_48: 4170299584562321190
+      mageSpriteSheet-Picsart-BackgroundRemover_5: 8549229025922026798
+      mageSpriteSheet-Picsart-BackgroundRemover_6: -8413193360678650093
+      mageSpriteSheet-Picsart-BackgroundRemover_7: -4618919123716700749
+      mageSpriteSheet-Picsart-BackgroundRemover_8: 4511101491345958620
+      mageSpriteSheet-Picsart-BackgroundRemover_9: 6986770341264131933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
