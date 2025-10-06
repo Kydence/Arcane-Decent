@@ -30,7 +30,7 @@ public class BasicAttacka : MonoBehaviour
     {
         for (int i = 0; i < arrows.Length; i++)
         {
-            if (arrows[i].activeInHierarchy)
+            if (!arrows[i].activeInHierarchy)
                 return i;
         }
         return 0;
