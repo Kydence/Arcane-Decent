@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
-    Rigidbody2D body;
+    public Rigidbody2D body;
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
