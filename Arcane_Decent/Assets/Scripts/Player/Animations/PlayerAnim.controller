@@ -343,6 +343,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+  - m_Name: Isgrounded
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -468,6 +474,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsFalling
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Isgrounded
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5169884353139407385}
@@ -659,7 +668,7 @@ AnimatorStateMachine:
     m_Position: {x: 610, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6156503949643464612}
-    m_Position: {x: 750, y: 350, z: 0}
+    m_Position: {x: 850, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -960837479692747402}
     m_Position: {x: -440, y: 320, z: 0}
