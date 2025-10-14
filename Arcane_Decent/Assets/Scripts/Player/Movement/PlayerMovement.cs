@@ -2,10 +2,23 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movement Parameters")]
     public float speed;
     public float jumpPower;
+
+    [Header("Coyote Time")]
+    public float coyoteTime; // how much time the player can hang in the air before jumping
+    float coyoteCounter; // how much time passed since the player ran off the edge
+    
+    [Header("Layers")]
     public LayerMask groundLayer;
     public LayerMask wallLayer;
+    
+    /*
+    [Header("Sounds")]
+    public AudioClip jumpSound;
+    */
+
     public Rigidbody2D body;
     Animator anim;
     BoxCollider2D boxCollider;
@@ -38,7 +51,126 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("IsWalk", horizontalInput != 0);
         //anim.SetBool("IsJump", isGrounded());
 
-        // wall jump logic
+        // jump
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
+
+        // adjustable jump height
+        if (Input.GetKeyUp(KeyCode.Space) && body.linearVelocity.y > 0)
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
+        }
+
+        if (onWall())
+        {
+            body.gravityScale = 0;
+            body.linearVelocity = Vector2.zero;
+        }
+        else
+        {
+            body.gravityScale = 7;
+            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
+
+            if (isGrounded())
+            {
+                coyoteCounter = coyoteTime; // reset coyote counter when on ground
+            }
+            else
+            {
+                coyoteCounter -= Time.deltaTime; // start decreasing coyote counter when not on ground
+            }
+        }
+    }
+
+    private void Jump()
+    {
+        if (coyoteCounter < 0 && !onWall())
+        {
+            return; // if coyote counter is 0 or less and not on wall don't do anything
+        }
+
+        //SoundManager.instance.PlaySound(jumpSound);
+
+        if (onWall())
+        {
+            WallJump();
+        }
+        else
+        {
+            if (isGrounded())
+            {
+                body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+            }
+            else
+            {
+                // if not on the ground and coyote counter is bigger than 0 do a normal jump
+                if (coyoteCounter > 0)
+                {
+                    body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+                }
+            }
+
+            // reset coyote counter to 0 to avoid double jumps
+            coyoteCounter = 0;
+        }
+
+        /*
+        if (isGrounded())
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+        }
+        else if (onWall() && !isGrounded())
+        {
+            if (horizontalInput == 0)
+            {
+                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
+                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
+            }
+            
+            wallJumpCooldown = 0;
+        }*/
+    }
+    
+    private void WallJump()
+    {
+        
+    }
+
+    /*void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }*/
+
+    private bool isGrounded()
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycastHit.collider != null;
+    }
+
+    private bool onWall()
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
+        return raycastHit.collider != null;
+    }
+
+    public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
+    }
+
+
+
+
+
+
+    /*
+    // wall jump logic
         if (wallJumpCooldown > 0.2f)
         {
             body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
@@ -56,51 +188,15 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 Jump();
+
+                if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+                {
+                    SoundManager.instance.PlaySound(jumpSound);
+                }
             }
         }
         else
         {
             wallJumpCooldown += Time.deltaTime;
-        }
-    }
-
-    private void Jump()
-    {
-        if (isGrounded())
-        {
-            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-            //anim.SetTrigger("IsFalling");
-        }
-        else if (onWall() && !isGrounded())
-        {
-            if (horizontalInput == 0)
-            {
-                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
-                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-            else
-            {
-                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
-            }
-            
-            wallJumpCooldown = 0;
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
-
-    private bool isGrounded()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
-        return raycastHit.collider != null;
-    }
-
-    private bool onWall()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
-        return raycastHit.collider != null;
-    }
+        }*/
 }
