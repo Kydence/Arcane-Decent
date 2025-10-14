@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
         // set animator parameters
         anim.SetBool("IsWalk", horizontalInput != 0);
-        anim.SetBool("IsJump", isGrounded());
+        //anim.SetBool("IsJump", isGrounded());
 
         // jump
         if (Input.GetKeyDown(KeyCode.Space))
