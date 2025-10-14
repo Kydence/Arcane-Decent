@@ -13,6 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [Header("Multiple Jumps")]
     public int extraJumps;
     int jumpCounter;
+
+    [Header("Wall Jumps")]
+    public float wallJumpX; // horizontal wall jump force
+    public float wallJumpY; // vertical wall jump force
+    float wallJumpCooldown;
     
     [Header("Layers")]
     public LayerMask groundLayer;
@@ -26,7 +31,6 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D body;
     Animator anim;
     BoxCollider2D boxCollider;
-    float wallJumpCooldown;
     float horizontalInput;
 
     void Awake()
@@ -128,31 +132,12 @@ public class PlayerMovement : MonoBehaviour
             // reset coyote counter to 0 to avoid double jumps
             coyoteCounter = 0;
         }
-
-        /*
-        if (isGrounded())
-        {
-            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-        }
-        else if (onWall() && !isGrounded())
-        {
-            if (horizontalInput == 0)
-            {
-                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
-                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-            else
-            {
-                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
-            }
-            
-            wallJumpCooldown = 0;
-        }*/
     }
     
     private void WallJump()
     {
-        
+        body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x) * wallJumpX, wallJumpY));
+        wallJumpCooldown = 0;
     }
 
     /*void OnCollisionEnter2D(Collision2D collision)
@@ -176,40 +161,4 @@ public class PlayerMovement : MonoBehaviour
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
-
-
-
-
-
-
-    /*
-    // wall jump logic
-        if (wallJumpCooldown > 0.2f)
-        {
-            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
-
-            if (onWall() && !isGrounded())
-            {
-                body.gravityScale = 0;
-                body.linearVelocity = Vector2.zero;
-            }
-            else
-            {
-                body.gravityScale = 1;
-            }
-
-            if (Input.GetKey(KeyCode.Space))
-            {
-                Jump();
-
-                if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
-                {
-                    SoundManager.instance.PlaySound(jumpSound);
-                }
-            }
-        }
-        else
-        {
-            wallJumpCooldown += Time.deltaTime;
-        }*/
 }
