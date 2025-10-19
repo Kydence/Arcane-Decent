@@ -57,18 +57,21 @@ public class PlayerMovement : MonoBehaviour
 
         // set animator parameters
         anim.SetBool("IsWalk", horizontalInput != 0);
-        //anim.SetBool("IsJump", isGrounded());
-
+        anim.SetBool("Isgrounded", isGrounded());
+        print(isGrounded());
         // jump
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Jump();
+            Jump();  
+            //anim.SetBool("IsJump", true);   
         }
 
         // adjustable jump height
         if (Input.GetKeyUp(KeyCode.Space) && body.linearVelocity.y > 0)
         {
+
             body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
+            
         }
 
         if (onWall())
@@ -85,12 +88,18 @@ public class PlayerMovement : MonoBehaviour
             {
                 coyoteCounter = coyoteTime; // reset coyote counter when on ground
                 jumpCounter = extraJumps; // reset jump counter to extra jump value
+                
+
             }
             else
             {
                 coyoteCounter -= Time.deltaTime; // start decreasing coyote counter when not on ground
+                
+
             }
         }
+        isFalling();
+       
     }
 
     private void Jump()
@@ -114,6 +123,8 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
+                
+                
                 // if not on the ground and coyote counter is bigger than 0 do a normal jump
                 if (coyoteCounter > 0)
                 {
@@ -160,5 +171,26 @@ public class PlayerMovement : MonoBehaviour
     public bool canAttack()
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
+    }
+
+    private void isFalling()
+    {
+        if (body.linearVelocity.y > 0)
+        {
+            anim.SetBool("IsJump", true);
+            anim.SetBool("IsFalling", false);
+        }
+        if (body.linearVelocity.y < 0)
+        {
+            print("falling\n");
+            anim.SetBool("IsJump", false);
+            anim.SetBool("IsFalling", true);
+
+            
+        }
+        else
+        {
+            anim.SetBool("IsFalling", false);
+        }
     }
 }

@@ -7,6 +7,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
 
+    private Animator anim;
+
     [Header("iFrames")]
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int numberofFlashes;
@@ -31,13 +33,19 @@ public class Health : MonoBehaviour
             //player dead
             if (!dead)
             {
+                anim.SetTrigger("die");
+                GetComponent<PlayerMovement>().enabled = false;
+                
+
+
 
                 //Enemy
                 if(GetComponentInParent<Enemypatrol>() != null)
                     GetComponentInParent<Enemypatrol>().enabled = false;
-                    
+
                 if (GetComponent<MeleeEnemy>() != null)
                     GetComponent<MeleeEnemy>().enabled = false;
+                dead = true;
             }
         }
     }
@@ -48,11 +56,16 @@ public class Health : MonoBehaviour
         for (int i = 0; i < numberofFlashes; i++)
         {
             spriteRend.color = new Color(1, 0, 0, 0.5f);
-            yield return new WaitForSeconds(iFramesDuration/ (numberofFlashes *2));
+            yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
             spriteRend.color = Color.white;
-            yield return new WaitForSeconds(iFramesDuration/ (numberofFlashes *2));
+            yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
         }
         Physics2D.IgnoreLayerCollision(10, 11, false);
+    }
+    
+    public void AddHealth(float _value)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
 
     private void Update()
