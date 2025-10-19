@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     {
         currentHealth = startingHealth;
         spriteRend = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     public void TakeDamage(float _damage)
@@ -35,7 +36,6 @@ public class Health : MonoBehaviour
             {
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
-                
 
 
 
@@ -51,16 +51,19 @@ public class Health : MonoBehaviour
     }
     private IEnumerator Invunerability()
     {
-        Physics2D.IgnoreLayerCollision(10, 11, true);
-        //invunerability duration
-        for (int i = 0; i < numberofFlashes; i++)
+        if (currentHealth > 0)
         {
-            spriteRend.color = new Color(1, 0, 0, 0.5f);
-            yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
-            spriteRend.color = Color.white;
-            yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
+            Physics2D.IgnoreLayerCollision(10, 11, true);
+            //invunerability duration
+            for (int i = 0; i < numberofFlashes; i++)
+            {
+                spriteRend.color = new Color(1, 0, 0, 0.5f);
+                yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
+                spriteRend.color = Color.white;
+                yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
+            }
+            Physics2D.IgnoreLayerCollision(10, 11, false);
         }
-        Physics2D.IgnoreLayerCollision(10, 11, false);
     }
     
     public void AddHealth(float _value)
