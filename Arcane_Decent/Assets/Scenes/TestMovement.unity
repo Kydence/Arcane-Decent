@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 143929773}
   - component: {fileID: 143929772}
   - component: {fileID: 143929771}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 1794045367}
   - component: {fileID: 1794045366}
   - component: {fileID: 1794045365}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1578,6 +1578,10 @@ PrefabInstance:
     - target: {fileID: 2952145340700095060, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598122035146854102, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
+      propertyPath: extraJumps
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5232243982665585224, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_Name
