@@ -7,6 +7,7 @@ public class BasicAttacka : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] arrows;
     private float cooldownTimer = Mathf.Infinity;
+    [SerializeField] private Mana mana;
 
     private void Awake()
     {
@@ -15,8 +16,12 @@ public class BasicAttacka : MonoBehaviour
 
     private void Update()
     {
+        print(mana.currentMana);
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown)
-            Attack();
+            if (mana.currentMana > 0)
+            {
+                Attack();
+            }
         cooldownTimer += Time.deltaTime;
     }
 

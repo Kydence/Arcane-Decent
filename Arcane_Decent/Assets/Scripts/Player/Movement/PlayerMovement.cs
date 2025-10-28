@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
         // set animator parameters
         anim.SetBool("IsWalk", horizontalInput != 0);
         anim.SetBool("Isgrounded", isGrounded());
-        print(isGrounded());
+        
         // jump
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -182,7 +182,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (body.linearVelocity.y < 0)
         {
-            print("falling\n");
+          
             anim.SetBool("IsJump", false);
             anim.SetBool("IsFalling", true);
 

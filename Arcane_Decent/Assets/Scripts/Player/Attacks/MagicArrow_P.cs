@@ -30,8 +30,12 @@ public class MagicArrowProjectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        hit = true;
-        boxCollider.enabled = false;
+        if (collision.tag != "Player")
+        {
+            hit = true;
+            boxCollider.enabled = false;
+            Deactive();
+        }
 
     }
     public void SetDirection(float _ditection)
