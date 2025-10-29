@@ -1,10 +1,8 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class BasicAttacka : MonoBehaviour
+public class FireBallAttack : MonoBehaviour
 {
-    [SerializeField] private float attackCooldown;
+ [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] arrows;
     private float cooldownTimer = Mathf.Infinity;
@@ -33,7 +31,7 @@ public class BasicAttacka : MonoBehaviour
     {
         cooldownTimer = 0;
         arrows[FindArrow()].transform.position = firePoint.position;
-        arrows[FindArrow()].GetComponent<MagicArrowProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+        arrows[FindArrow()].GetComponent<FireballProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
     private int FindArrow()
     {

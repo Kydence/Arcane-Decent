@@ -47,6 +47,7 @@ public class FireballProjectile : MonoBehaviour
         {
             animator.SetTrigger("explode");
         }
+       
 
         // Deactivate after a brief explosion delay
         Invoke(nameof(Deactivate), explosionDuration);

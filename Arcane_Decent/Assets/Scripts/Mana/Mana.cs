@@ -30,7 +30,7 @@ public class Mana : MonoBehaviour
     private void Update()
     {
         ManaTimer += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             UseMana(1);
             ManaTimer = 0;
