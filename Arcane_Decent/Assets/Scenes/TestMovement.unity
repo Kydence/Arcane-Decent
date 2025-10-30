@@ -332,6 +332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Funny
       objectReference: {fileID: 0}
+    - target: {fileID: 254293477863022660, guid: e6bb62f80f5fdc24395b3d1e4c19b6c1, type: 3}
+      propertyPath: m_TagString
+      value: funny
+      objectReference: {fileID: 0}
     - target: {fileID: 3719053445812538818, guid: e6bb62f80f5fdc24395b3d1e4c19b6c1, type: 3}
       propertyPath: m_SortingOrder
       value: 6
@@ -1472,6 +1476,7 @@ MonoBehaviour:
   - {fileID: 1448134569}
   - {fileID: 2123269161}
   - {fileID: 344505304}
+  cooldownTimer: Infinity
   mana: {fileID: 1728144897}
   button: 106
 --- !u!114 &1728144897
@@ -1487,6 +1492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingMana: 10
+  ManaTimer: 0
 --- !u!114 &1728144903
 MonoBehaviour:
   m_ObjectHideFlags: 0
