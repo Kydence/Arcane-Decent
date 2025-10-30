@@ -20,7 +20,7 @@ public class BasicAttacka : MonoBehaviour
 
     private void Update()
     {
-        print(mana.currentMana);
+        
         if (Input.GetKeyDown(button) && cooldownTimer > attackCooldown)
             if (mana.currentMana > 0)
             {
