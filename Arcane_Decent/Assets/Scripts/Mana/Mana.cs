@@ -40,7 +40,7 @@ public class Mana : MonoBehaviour
 
     private void Update()
     {
-        print(cooldownTimer);
+       // print(cooldownTimer);
         
         ManaTimer += Time.deltaTime;
         cooldownTimer += Time.deltaTime;

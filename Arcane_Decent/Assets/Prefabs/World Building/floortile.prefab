@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8416260678740587300}
   - component: {fileID: 412771563391732534}
   - component: {fileID: 6451403184749778820}
+  - component: {fileID: 4643976011189105792}
   m_Layer: 6
   m_Name: floortile
   m_TagString: Untagged
@@ -134,3 +135,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0586443, y: 1.0158625}
   m_EdgeRadius: 0
+--- !u!114 &4643976011189105792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344723671371376653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef07f24ce109bd4fabe2a41284470be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

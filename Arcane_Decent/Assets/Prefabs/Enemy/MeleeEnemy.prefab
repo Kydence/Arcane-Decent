@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1896964012583506287}
   - component: {fileID: 1387901345843373524}
   - component: {fileID: 3378201348233544352}
-  - component: {fileID: 5256974437039514602}
   - component: {fileID: 8722347581499698346}
+  - component: {fileID: 7784831152468900510}
   m_Layer: 0
   m_Name: MeleeEnemy
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 4921262135344254936}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.034027316, z: 0, w: 0.99942094}
-  m_LocalPosition: {x: 1.42, y: -4.13, z: 0.09051357}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.8564014, y: -4.13, z: 0.09051357}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -136,21 +136,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5256974437039514602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4921262135344254936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5881b672d5d97d14187dab4bfa987387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 3
-  iFramesDuration: 0
-  numberofFlashes: 0
 --- !u!114 &8722347581499698346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,11 +148,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a6a841a04ef64381b8f7bb76578f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCoolDown: 1
+  attackCoolDown: 5
   colliderDistance: 0.7
   range: 1.32
   damage: 2
   boxCollider: {fileID: 3378201348233544352}
   playerLayer:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
+--- !u!114 &7784831152468900510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921262135344254936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1e09a3cbb7ec34895c813a3c59462a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 3
+  iFramesDuration: 0
+  numberofFlashes: 0

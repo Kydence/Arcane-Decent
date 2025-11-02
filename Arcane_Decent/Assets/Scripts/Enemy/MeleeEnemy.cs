@@ -12,6 +12,8 @@ public class MeleeEnemy : MonoBehaviour
     private Health playerHealth;
     private Enemypatrol enemypatrol;
 
+    //NEED TO HAVE ANIMATION EVENT TO MAKE SURE MELEE ENEMY DOESN'T ATTACK WHEN PLAYER IS IN THE 
+    //ENEMY HIT BOX AND SO THE PLAYER IS ABLE TO DODGE THE ATTACK
     void Awake()
     {
         enemypatrol = GetComponentInParent<Enemypatrol>();
@@ -21,14 +23,20 @@ public class MeleeEnemy : MonoBehaviour
     {
         cooldownTimer += Time.deltaTime;
         //attack only when player in sight
+        
         if (PlayerInsight())
         {
+            
             if (cooldownTimer >= attackCoolDown)
             {
                 cooldownTimer = 0;
                 DamagePlayer();
                 //attack
             }
+        }
+       if (enemypatrol != null)
+        {
+            enemypatrol.enabled = !PlayerInsight();
         }
     }
 
