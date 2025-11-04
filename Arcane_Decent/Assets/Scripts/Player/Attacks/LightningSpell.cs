@@ -1,3 +1,6 @@
+/******
+Previous Script:
+
 using UnityEngine;
 
 public class LightningSpell : MonoBehaviour
@@ -39,6 +42,44 @@ public class LightningSpell : MonoBehaviour
             {
                 Destroy(activeLightning);
                 activeLightning = null;
+            }
+        }
+    }
+}
+*********/
+
+using UnityEngine;
+
+public class LightningSpell : MonoBehaviour
+{
+    [SerializeField] private GameObject lightningPrefab;
+    [SerializeField] private Transform spawnPoint;
+
+    private GameObject activeLightning;
+    private Animator lightningAnimator;
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.C)) // Holding the key
+        {
+            if (activeLightning == null)
+            {
+                activeLightning = Instantiate(lightningPrefab, spawnPoint.position, spawnPoint.rotation);
+                lightningAnimator = activeLightning.GetComponent<Animator>();
+            }
+
+            // Keep following the player if needed
+            if (activeLightning != null)
+            {
+                activeLightning.transform.position = spawnPoint.position;
+            }
+        }
+        else // Key released
+        {
+            if (activeLightning != null)
+            {
+                lightningAnimator.SetBool("stop", true); // Trigger dissipate animation
+                Destroy(activeLightning, 0.4f); // Wait for dissipate animation to finish
             }
         }
     }
