@@ -34,7 +34,7 @@ public class FallingItem : MonoBehaviour
 
         if (hit.collider != null)
         {
-            print("fall");
+          
             body.gravityScale = 1;
             checkTimer = 0;
         }
