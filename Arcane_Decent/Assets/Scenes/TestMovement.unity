@@ -1455,7 +1455,6 @@ GameObject:
   m_PrefabInstance: {fileID: 593588987}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1001 &1905242220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1597,8 +1596,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 52c6f0c608769792416bea3c6ed2b359780f0d39
 =======
 >>>>>>> 52c6f0c608769792416bea3c6ed2b359780f0d39
 --- !u!1 &2015851319
