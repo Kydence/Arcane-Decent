@@ -11,12 +11,12 @@ public class FireballProjectile : MonoBehaviour
     private float lifetime;
 
     private BoxCollider2D boxCollider;
-    private Animator animator; //For explosion animation
+    // private Animator animator; For explosion animation
 
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -31,7 +31,7 @@ public class FireballProjectile : MonoBehaviour
         transform.Translate(movementSpeed, 0, 0);
 
         lifetime += Time.deltaTime;
-        if (lifetime > 5)
+        if (lifetime > 5f)
         {
             gameObject.SetActive(false);
         } 
@@ -43,34 +43,42 @@ public class FireballProjectile : MonoBehaviour
         boxCollider.enabled = false;
 
         // Play explosion animation if exists
+        /*
         if (animator != null)
         {
             animator.SetTrigger("explode");
         }
-       
+        
 
         // Deactivate after a brief explosion delay
         Invoke(nameof(Deactivate), explosionDuration);
+        */
+
+        gameObject.SetActive(false);
     }
 
     public void SetDirection(float _direction)
     {
-        lifetime = 0;
+        lifetime = 0f;
         direction = _direction;
         gameObject.SetActive(true);
         hit = false;
         boxCollider.enabled = true;
 
         float localScaleX = transform.localScale.x;
+
         if (Mathf.Sign(localScaleX) != _direction)
         {
             localScaleX = -localScaleX;
         }
+        
         transform.localScale = new Vector2(localScaleX, transform.localScale.y);
     }
 
+    /*
     private void Deactivate()
     {
         gameObject.SetActive(false);
     }
+    */
 }
