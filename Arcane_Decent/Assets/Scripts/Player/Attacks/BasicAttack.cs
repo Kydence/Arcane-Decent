@@ -1,12 +1,17 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BasicAttacka : MonoBehaviour
 {
-    [SerializeField] private float attackCooldown;
+    [SerializeField] public float attackCooldown;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] arrows;
-    private float cooldownTimer = Mathf.Infinity;
+    public float cooldownTimer = Mathf.Infinity;
+    [SerializeField] private Mana mana;
+    [SerializeField] private KeyCode button;
+    
+    
 
     private void Awake()
     {
@@ -15,8 +20,12 @@ public class BasicAttacka : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown)
-            Attack();
+        
+        if (Input.GetKeyDown(button) && cooldownTimer > attackCooldown)
+            if (mana.currentMana > 0)
+            {
+                Attack();
+            }
         cooldownTimer += Time.deltaTime;
     }
 

@@ -168,7 +168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d897e7ffd2820cd4cab56c52055e9b38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74ebfd594a58b7f47a2b317a8004487f, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -236,14 +236,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d897e7ffd2820cd4cab56c52055e9b38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74ebfd594a58b7f47a2b317a8004487f, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -287,7 +287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -388, y: 108}
+  m_AnchoredPosition: {x: -402.3, y: 108}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &531731114164993912
@@ -311,14 +311,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 7805564517473329669, guid: 3725a67f89d7e474d9f2da52dd6322dd, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -357,13 +357,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2980810349194100496}
   - {fileID: 948477942749552454}
+  - {fileID: 2980810349194100496}
   m_Father: {fileID: 7682046232604617111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 8.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569552170736927369
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMana: {fileID: 0}
   totalMana: {fileID: 5328177880085509788}
-  currentMana: {fileID: 7370765972254048377}
+  currentMana: {fileID: 0}
 --- !u!1 &6759048109457062607
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948477942749552454}
   - component: {fileID: 6639504959014349596}
-  - component: {fileID: 7370765972254048377}
+  - component: {fileID: 78675558707575389}
   m_Layer: 5
   m_Name: ManaCurrent
   m_TagString: Untagged
@@ -415,8 +415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -388, y: 108}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -390.58163, y: 106.23816}
+  m_SizeDelta: {x: 72.2652, y: 69.3477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6639504959014349596
 CanvasRenderer:
@@ -426,7 +426,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6759048109457062607}
   m_CullTransparentMesh: 1
---- !u!114 &7370765972254048377
+--- !u!114 &78675558707575389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.19012117, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.26948723, b: 0.6830188, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -447,10 +447,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Type: 3
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 1
+  m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0

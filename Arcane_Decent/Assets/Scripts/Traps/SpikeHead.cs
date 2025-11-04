@@ -17,7 +17,7 @@ public class SpikeHead : EnemyDamage
     private bool attacking;
 
     
-    private void OEnable()
+    private void OnEnable()
     {
         Stop();
     }
