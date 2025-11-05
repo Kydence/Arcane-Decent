@@ -8,7 +8,7 @@ public class movingGround : MonoBehaviour
     [SerializeField] private Transform ground;
     [SerializeField] private float speed;
     [SerializeField] private int direction;
-    [SerializeField] private CircleCollider2D getin;
+   
     private float thing;
     private bool begin = false;
     private Vector3 initScale;
