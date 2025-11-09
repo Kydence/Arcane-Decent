@@ -10,6 +10,7 @@ TagManager:
   - basicAttack
   - FireBall
   - Lightning
+  - NO
   layers:
   - Default
   - TransparentFX

@@ -25,9 +25,20 @@ public class movingGround : MonoBehaviour
         
         if (begin)
         {
-            if (ground.position.x < thing + movingDistance)
+            if (direction > 0)
             {
-                MoveInDirection(direction);
+                if (ground.position.x < thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
+
+            }
+            else
+            {
+                if (ground.position.x > thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
             }
         }
 
