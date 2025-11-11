@@ -180,8 +180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee29f26ccca5d440bfbf05cc19894c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpPower: 20
+  speed: 10
+  jumpPower: 25
   coyoteTime: 0.25
   extraJumps: 1
   groundLayer:
