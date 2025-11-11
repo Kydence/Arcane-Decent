@@ -71,6 +71,10 @@ public class SpikeHead : EnemyDamage
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.tag== "NO")
+        {
+            Stop();
+        }
         base.OnTriggerEnter2D(collision);
         //stop spikehead once he hits something
         Stop();

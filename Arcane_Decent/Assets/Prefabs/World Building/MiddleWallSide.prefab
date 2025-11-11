@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6105198812364908013}
   - component: {fileID: 237561084721149164}
   - component: {fileID: 4297622746096370988}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: MiddleWallSide
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

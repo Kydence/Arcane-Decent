@@ -34,18 +34,35 @@ public class Health : MonoBehaviour
             //player dead
             if (!dead)
             {
-                anim.SetTrigger("die");
-                GetComponent<PlayerMovement>().enabled = false;
 
+                
+                if (GetComponent<PlayerMovement>() != null)
+                {
+                    anim.SetTrigger("die");
+                    GetComponent<PlayerMovement>().enabled = false;
+                    
+                }
 
 
                 //Enemy
-                if(GetComponentInParent<Enemypatrol>() != null)
-                    GetComponentInParent<Enemypatrol>().enabled = false;
+                if (GetComponentInParent<Enemypatrol>() != null)
+                {
 
-                if (GetComponent<MeleeEnemy>() != null)
+                    GetComponentInParent<Enemypatrol>().enabled = false;
+                      Destroy(gameObject);
+                }
+
+                if (GetComponentInParent<MeleeEnemy>() != null)
+                {
+                    
                     GetComponent<MeleeEnemy>().enabled = false;
-                dead = true;
+                }
+                if(GetComponent<RangedEnemy>() != null)
+                {
+                    GetComponent<RangedEnemy>().enabled = false;
+                  
+                }
+            dead = true;
             }
         }
     }
@@ -53,7 +70,7 @@ public class Health : MonoBehaviour
     {
         if (currentHealth > 0)
         {
-            Physics2D.IgnoreLayerCollision(10, 11, true);
+            Physics2D.IgnoreLayerCollision(3, 8, true);
             //invunerability duration
             for (int i = 0; i < numberofFlashes; i++)
             {
@@ -62,7 +79,7 @@ public class Health : MonoBehaviour
                 spriteRend.color = Color.white;
                 yield return new WaitForSeconds(iFramesDuration / (numberofFlashes * 2));
             }
-            Physics2D.IgnoreLayerCollision(10, 11, false);
+            Physics2D.IgnoreLayerCollision(3, 8, false);
         }
     }
     
@@ -71,11 +88,5 @@ public class Health : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            TakeDamage(1);
-        }
-    }
+  
 }

@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - Enemy
   - funny
+  - basicAttack
+  - FireBall
+  - Lightning
+  - NO
   layers:
   - Default
   - TransparentFX
@@ -16,7 +20,7 @@ TagManager:
   - UI
   - Ground
   - Wall
-  - 
+  - Enemy
   - 
   - 
   - 

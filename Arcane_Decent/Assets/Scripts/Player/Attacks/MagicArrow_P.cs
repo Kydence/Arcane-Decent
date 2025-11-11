@@ -35,7 +35,13 @@ public class MagicArrowProjectile : MonoBehaviour
             hit = true;
             boxCollider.enabled = false;
             Deactive();
+            if(collision.tag == "Enemy")
+            {
+
+                collision.GetComponent<Health>().TakeDamage(1);
+            }
         }
+        
 
     }
     public void SetDirection(float _ditection)

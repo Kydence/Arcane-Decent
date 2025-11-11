@@ -8,7 +8,7 @@ public class movingGround : MonoBehaviour
     [SerializeField] private Transform ground;
     [SerializeField] private float speed;
     [SerializeField] private int direction;
-    [SerializeField] private CircleCollider2D getin;
+   
     private float thing;
     private bool begin = false;
     private Vector3 initScale;
@@ -25,9 +25,20 @@ public class movingGround : MonoBehaviour
         
         if (begin)
         {
-            if (ground.position.x < thing + movingDistance)
+            if (direction > 0)
             {
-                MoveInDirection(direction);
+                if (ground.position.x < thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
+
+            }
+            else
+            {
+                if (ground.position.x > thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
             }
         }
 

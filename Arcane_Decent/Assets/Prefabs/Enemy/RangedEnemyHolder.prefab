@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1515972645167235058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RangedEnemyHolder
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3284253102824582153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Firepoint
   m_TagString: Untagged
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 5177939590884500324}
   - component: {fileID: 8551351352357638101}
   - component: {fileID: 6985148254260245805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RangedEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6725651862647884347}
   - component: {fileID: 635646066103121366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ProectileHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

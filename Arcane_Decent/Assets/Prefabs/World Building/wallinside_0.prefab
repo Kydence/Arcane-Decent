@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3362765470988007350}
   - component: {fileID: 3413196798950192475}
   - component: {fileID: 7334198832580560799}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: wallinside_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
