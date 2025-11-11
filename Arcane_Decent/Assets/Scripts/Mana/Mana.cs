@@ -45,7 +45,7 @@ public class Mana : MonoBehaviour
         ManaTimer += Time.deltaTime;
         cooldownTimer += Time.deltaTime;
         //checks if the player uses a basic attack and that the AttackCoolDown is over
-        if (Input.GetKeyDown(KeyCode.J) && cooldownTimer > attackCooldown)
+        if (Input.GetKeyDown(KeyCode.Z) && cooldownTimer > attackCooldown)
         {
             UseMana(1);
             ManaTimer = 0;
