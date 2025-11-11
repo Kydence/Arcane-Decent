@@ -11985,6 +11985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2016743415317604534, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
+      propertyPath: button
+      value: 122
+      objectReference: {fileID: 0}
     - target: {fileID: 3598122035146854102, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: speed
       value: 10
