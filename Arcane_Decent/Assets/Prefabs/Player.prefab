@@ -266,7 +266,7 @@ MonoBehaviour:
   - {fileID: 0}
   cooldownTimer: 100000
   mana: {fileID: 7055170458376077748}
-  button: 106
+  button: 122
 --- !u!1 &7816824640813443420
 GameObject:
   m_ObjectHideFlags: 0
