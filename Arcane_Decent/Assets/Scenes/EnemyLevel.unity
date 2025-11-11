@@ -468,7 +468,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 412771563391732534, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
       propertyPath: m_Size.x
-      value: 58.058323
+      value: 53.983746
+      objectReference: {fileID: 0}
+    - target: {fileID: 412771563391732534, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
+      propertyPath: m_Size.y
+      value: 0.64589316
       objectReference: {fileID: 0}
     - target: {fileID: 3344723671371376653, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
       propertyPath: m_Name
@@ -484,11 +488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8416260678740587300, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.6499
+      value: 17.6586
       objectReference: {fileID: 0}
     - target: {fileID: 8416260678740587300, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5848217
+      value: -4.4116
       objectReference: {fileID: 0}
     - target: {fileID: 8416260678740587300, guid: ca580f3cb1e169c488ca8ae6666b8677, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5105,7 +5109,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 188.66087, y: 114.02028}
+  m_Size: {x: 270.14923, y: 131.77321}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5120,7 +5124,7 @@ Transform:
   m_GameObject: {fileID: 1496393381}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.4599, y: 22.5769, z: 0}
+  m_LocalPosition: {x: 69.2655, y: 17.0254, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
