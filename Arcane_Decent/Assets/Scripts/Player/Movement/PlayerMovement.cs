@@ -13,15 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Multiple Jumps")]
     public int extraJumps;
     int jumpCounter;
-
-    [Header("Wall Jumps")]
-    public float wallJumpX; // horizontal wall jump force
-    public float wallJumpY; // vertical wall jump force
-    float wallJumpCooldown;
     
     [Header("Layers")]
     public LayerMask groundLayer;
-    public LayerMask wallLayer;
     
     /*
     [Header("Sounds")]
@@ -63,7 +57,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();  
-            //anim.SetBool("IsJump", true);   
         }
 
         // adjustable jump height
@@ -71,84 +64,56 @@ public class PlayerMovement : MonoBehaviour
         {
 
             body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
-            
         }
 
-        if (onWall())
+        body.gravityScale = 7;
+        body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
+
+        if (isGrounded())
         {
-            body.gravityScale = 0;
-            body.linearVelocity = Vector2.zero;
+            coyoteCounter = coyoteTime; // reset coyote counter when on ground
+            jumpCounter = extraJumps; // reset jump counter to extra jump value
         }
         else
         {
-            body.gravityScale = 7;
-            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
-
-            if (isGrounded())
-            {
-                coyoteCounter = coyoteTime; // reset coyote counter when on ground
-                jumpCounter = extraJumps; // reset jump counter to extra jump value
-                
-
-            }
-            else
-            {
-                coyoteCounter -= Time.deltaTime; // start decreasing coyote counter when not on ground
-                
-
-            }
+            coyoteCounter -= Time.deltaTime; // start decreasing coyote counter when not on ground
         }
+        
         isFalling();
-       
     }
 
     private void Jump()
     {
-        if (coyoteCounter < 0 && !onWall() && jumpCounter <= 0)
+        if (coyoteCounter < 0 && jumpCounter <= 0)
         {
             return; // if coyote counter is 0 or less and not on wall and don't have extra jumps don't do anything
         }
 
         //SoundManager.instance.PlaySound(jumpSound);
 
-        if (onWall())
+        if (isGrounded())
         {
-            WallJump();
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
         }
         else
         {
-            if (isGrounded())
+            // if not on the ground and coyote counter is bigger than 0 do a normal jump
+            if (coyoteCounter > 0)
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             }
             else
             {
-                
-                
-                // if not on the ground and coyote counter is bigger than 0 do a normal jump
-                if (coyoteCounter > 0)
+                if (jumpCounter > 0) // if there are extra jumps then jump and decrease the jump counter
                 {
                     body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-                }
-                else
-                {
-                    if (jumpCounter > 0) // if there are extra jumps then jump and decrease the jump counter
-                    {
-                        body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-                        jumpCounter--;
-                    }
+                    jumpCounter--;
                 }
             }
-
-            // reset coyote counter to 0 to avoid double jumps
-            coyoteCounter = 0;
         }
-    }
-    
-    private void WallJump()
-    {
-        body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x) * wallJumpX, wallJumpY));
-        wallJumpCooldown = 0;
+
+        // reset coyote counter to 0 to avoid double jumps
+        coyoteCounter = 0;
     }
 
     /*void OnCollisionEnter2D(Collision2D collision)
@@ -162,15 +127,9 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-    private bool onWall()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
-        return raycastHit.collider != null;
-    }
-
     public bool canAttack()
     {
-        return horizontalInput == 0 && isGrounded() && !onWall();
+        return horizontalInput == 0 && isGrounded();
     }
 
     private void isFalling()

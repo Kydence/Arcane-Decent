@@ -132,7 +132,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8596a63fda7344e40ad55c503dc90467, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -184,14 +184,9 @@ MonoBehaviour:
   jumpPower: 20
   coyoteTime: 0.25
   extraJumps: 1
-  wallJumpX: 1500
-  wallJumpY: 750
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 128
   body: {fileID: 2952145340700095060}
 --- !u!95 &4074379977733521679
 Animator:
