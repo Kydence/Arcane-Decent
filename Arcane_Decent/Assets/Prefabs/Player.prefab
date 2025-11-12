@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 7797874506462442768}
   - component: {fileID: 2952145340700095060}
   - component: {fileID: 381625770780034833}
-  - component: {fileID: 3598122035146854102}
   - component: {fileID: 4074379977733521679}
+  - component: {fileID: 3598122035146854102}
+  - component: {fileID: 8471120812580323830}
   - component: {fileID: 4118347800389394291}
   - component: {fileID: 7055170458376077748}
   - component: {fileID: 2016743415317604534}
@@ -168,26 +169,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3076731, y: 0.54784054}
   m_EdgeRadius: 0
---- !u!114 &3598122035146854102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5232243982665585224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bee29f26ccca5d440bfbf05cc19894c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  jumpPower: 25
-  coyoteTime: 0.25
-  extraJumps: 1
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  body: {fileID: 2952145340700095060}
 --- !u!95 &4074379977733521679
 Animator:
   serializedVersion: 7
@@ -210,6 +191,39 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3598122035146854102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232243982665585224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee29f26ccca5d440bfbf05cc19894c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  jumpPower: 25
+  coyoteTime: 0.25
+  extraJumps: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  body: {fileID: 2952145340700095060}
+--- !u!114 &8471120812580323830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232243982665585224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbb7c7568210694da21e3137194e3e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointSound: {fileID: 8300000, guid: ac2ef9f49e9913d47a234631fc894d68, type: 3}
 --- !u!114 &4118347800389394291
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -82,11 +82,19 @@ public class Health : MonoBehaviour
             Physics2D.IgnoreLayerCollision(3, 8, false);
         }
     }
-    
+
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
+    
+    public void Respawn()
+    {
+        dead = false;
+        AddHealth(startingHealth);
+        anim.ResetTrigger("die");
+        anim.Play("Idle");
 
-  
+        GetComponent<PlayerMovement>().enabled = true;
+    }
 }
