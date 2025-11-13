@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class FireBallAttack : MonoBehaviour
 {
- [SerializeField] private float attackCooldown;
+ [SerializeField] public float attackCooldown;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] arrows;
-    private float cooldownTimer = Mathf.Infinity;
+    public float cooldownTimer = Mathf.Infinity;
     [SerializeField] private Mana mana;
     [SerializeField] private KeyCode button;
     [SerializeField] private AudioClip fireballAttackSound;

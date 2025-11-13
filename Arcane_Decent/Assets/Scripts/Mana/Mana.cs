@@ -13,6 +13,9 @@ public class Mana : MonoBehaviour
     private float attackCooldown;
     private float cooldownTimer;
     public float ManaTimer = 0;
+
+    private float FB_attackcool;
+    private float FB_cooldown;
     
     private void Awake()
     {
@@ -24,6 +27,8 @@ public class Mana : MonoBehaviour
         attackCooldown = GetComponent<BasicAttacka>().attackCooldown;
         //gets the starting cooldown value from basicarrack()
         cooldownTimer = GetComponent<BasicAttacka>().cooldownTimer;
+        FB_attackcool = GetComponent<FireBallAttack>().attackCooldown;
+        FB_cooldown = GetComponent<FireBallAttack>().cooldownTimer;
     }
 
     //subtracts _amount from the currentMana float
@@ -44,12 +49,20 @@ public class Mana : MonoBehaviour
         
         ManaTimer += Time.deltaTime;
         cooldownTimer += Time.deltaTime;
+        FB_cooldown += Time.deltaTime;
         //checks if the player uses a basic attack and that the AttackCoolDown is over
         if (Input.GetKeyDown(KeyCode.Z) && cooldownTimer > attackCooldown)
         {
-            UseMana(1);
+            UseMana(2);
             ManaTimer = 0;
             cooldownTimer = 0;
+        }
+        
+        else if(Input.GetKeyDown(KeyCode.X) && FB_cooldown > FB_attackcool)
+        {
+            UseMana(5);
+            ManaTimer = 0;
+            FB_cooldown = 0;
         }
         //restores mana
         else if (ManaTimer >= 2)
