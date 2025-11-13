@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7040366730146450172}
   - component: {fileID: 2782914139070087515}
-  - component: {fileID: 8725780988562430502}
+  - component: {fileID: 6654962442946833029}
   - component: {fileID: 2485074787875486423}
-  - component: {fileID: 3350099726315718316}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -79,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -5627262928562358083, guid: 59018be134094cc41925fea0a10d6a50, type: 3}
   m_Color: {r: 0, g: 0.8420627, b: 0.9150943, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,8 +89,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &8725780988562430502
-CircleCollider2D:
+--- !u!61 &6654962442946833029
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -124,8 +123,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0000002429372, y: 0}
-  m_Radius: 0.5191151
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.95, y: 5.65}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.95, y: 5.65}
+  m_EdgeRadius: 0
 --- !u!114 &2485074787875486423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,16 +148,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelname: 
---- !u!114 &3350099726315718316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7922879430191086766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffb2d7ba2ea1d004189ead4d2e600996, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portalSound: {fileID: 8300000, guid: c225236eb0c4c90499b6f7bd61743ede, type: 3}
