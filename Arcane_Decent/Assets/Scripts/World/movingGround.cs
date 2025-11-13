@@ -8,6 +8,7 @@ public class movingGround : MonoBehaviour
     [SerializeField] private Transform ground;
     [SerializeField] private float speed;
     [SerializeField] private int direction;
+    [SerializeField] private bool goback;
    
     private float thing;
     private bool begin = false;
@@ -38,25 +39,36 @@ public class movingGround : MonoBehaviour
             {
                 if (ground.position.x > thing + movingDistance)
                 {
-                    MoveInDirection(direction);
+                    if (ground.position.x > initScale.x)
+                    {
+                        MoveInDirection(direction);
+                    }
                 }
             }
         }
-        else
-        {
-            if (direction > 0)
+        if (goback == true) {
+            if(!begin)
             {
-                if (ground.position.x > thing + movingDistance)
+                if (direction > 0)
                 {
-                    MoveInDirection(direction);
-                }
+                    if (ground.position.x < thing + movingDistance)
+                    {
+                        if (ground.position.x > thing)
+                        {
+                            MoveInDirection(-direction);
+                        }
+                    }
 
-            }
-            else
-            {
-                if (ground.position.x < thing + movingDistance)
+                }
+                else
                 {
-                    MoveInDirection(direction);
+                    if (ground.position.x > thing + movingDistance)
+                    {
+                        if (ground.position.x < thing)
+                        {
+                            MoveInDirection(-direction);
+                        }
+                    }
                 }
             }
         }
@@ -82,7 +94,7 @@ public class movingGround : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.tag == "Player" && goback == true)
         {
             //back = true;
             begin = false;
