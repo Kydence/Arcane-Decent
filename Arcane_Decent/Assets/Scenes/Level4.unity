@@ -2972,6 +2972,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 78675558707575389, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2789729244107082684, guid: 2f0212026e9740447bf2836b83a25602, type: 3}
     - target: {fileID: 569552170736927369, guid: d576693c54f65574e90927f95e10e543, type: 3}
       propertyPath: totalMana
       value: 
@@ -2987,6 +2991,22 @@ PrefabInstance:
     - target: {fileID: 670619002620647512, guid: d576693c54f65574e90927f95e10e543, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 948477942749552454, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 79.2681
+      objectReference: {fileID: 0}
+    - target: {fileID: 948477942749552454, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.3085
+      objectReference: {fileID: 0}
+    - target: {fileID: 948477942749552454, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -394.0831
+      objectReference: {fileID: 0}
+    - target: {fileID: 948477942749552454, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 105.25775
       objectReference: {fileID: 0}
     - target: {fileID: 962636700728440992, guid: d576693c54f65574e90927f95e10e543, type: 3}
       propertyPath: playerHealth

@@ -11,6 +11,7 @@ public class movingGround : MonoBehaviour
    
     private float thing;
     private bool begin = false;
+    private bool back = false;
     private Vector3 initScale;
     void Awake()
     {
@@ -22,7 +23,7 @@ public class movingGround : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         if (begin)
         {
             if (direction > 0)
@@ -36,6 +37,24 @@ public class movingGround : MonoBehaviour
             else
             {
                 if (ground.position.x > thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
+            }
+        }
+        else
+        {
+            if (direction > 0)
+            {
+                if (ground.position.x > thing + movingDistance)
+                {
+                    MoveInDirection(direction);
+                }
+
+            }
+            else
+            {
+                if (ground.position.x < thing + movingDistance)
                 {
                     MoveInDirection(direction);
                 }
@@ -57,6 +76,16 @@ public class movingGround : MonoBehaviour
         if (collision.tag == "Player")
         {
             begin = true;
+           // back = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            //back = true;
+            begin = false;
         }
     }
 }
