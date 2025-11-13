@@ -10,6 +10,7 @@ public class BasicAttacka : MonoBehaviour
     public float cooldownTimer = Mathf.Infinity;
     [SerializeField] private Mana mana;
     [SerializeField] private KeyCode button;
+    [SerializeField] private AudioClip basicAttackSound;
     
     
 
@@ -31,6 +32,7 @@ public class BasicAttacka : MonoBehaviour
 
     private void Attack()
     {
+        CloseSoundManager.instance.PlaySound(basicAttackSound);
         cooldownTimer = 0;
         arrows[FindArrow()].transform.position = firePoint.position;
         arrows[FindArrow()].GetComponent<MagicArrowProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));

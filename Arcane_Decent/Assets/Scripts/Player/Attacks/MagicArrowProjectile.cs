@@ -30,19 +30,26 @@ public class MagicArrowProjectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Player")
+        // Ignore Player
+        if (collision.CompareTag("Player"))
         {
-            hit = true;
-            boxCollider.enabled = false;
-            Deactive();
-            if(collision.tag == "Enemy")
-            {
-
-                collision.GetComponent<Health>().TakeDamage(1);
-            }
+            return;
         }
-        
 
+        // Ignore the FarSoundZone trigger
+        if (collision.GetComponent<FarSoundZone>())
+        {
+            return;
+        }
+
+        // Actually hits
+        hit = true;
+        boxCollider.enabled = false;
+        Deactive();
+        if(collision.tag == "Enemy")
+        {
+            collision.GetComponent<Health>().TakeDamage(1);
+        }
     }
     public void SetDirection(float _ditection)
     {

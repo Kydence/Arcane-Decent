@@ -8,7 +8,7 @@ public class FireBallAttack : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
     [SerializeField] private Mana mana;
     [SerializeField] private KeyCode button;
-    
+    [SerializeField] private AudioClip fireballAttackSound;
     
 
     private void Awake()
@@ -29,6 +29,7 @@ public class FireBallAttack : MonoBehaviour
 
     private void Attack()
     {
+        CloseSoundManager.instance.PlaySound(fireballAttackSound);
         cooldownTimer = 0;
         arrows[FindArrow()].transform.position = firePoint.position;
         arrows[FindArrow()].GetComponent<FireballProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));

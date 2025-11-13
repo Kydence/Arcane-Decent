@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2782914139070087515}
   - component: {fileID: 8725780988562430502}
   - component: {fileID: 2485074787875486423}
+  - component: {fileID: 3350099726315718316}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -138,3 +139,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelname: 
+--- !u!114 &3350099726315718316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922879430191086766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb2d7ba2ea1d004189ead4d2e600996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portalSound: {fileID: 8300000, guid: c225236eb0c4c90499b6f7bd61743ede, type: 3}

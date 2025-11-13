@@ -27,7 +27,7 @@ public class MeleeEnemy : MonoBehaviour
         if (PlayerInsight())
         {
             
-            if (cooldownTimer >= attackCoolDown)
+            if (cooldownTimer >= attackCoolDown && playerHealth.currentHealth > 0)
             {
                 cooldownTimer = 0;
                 DamagePlayer();

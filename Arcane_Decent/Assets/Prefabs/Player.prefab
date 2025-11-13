@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4118347800389394291}
   - component: {fileID: 7055170458376077748}
   - component: {fileID: 2016743415317604534}
+  - component: {fileID: 6568460200065744041}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -210,6 +211,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  jumpSound: {fileID: 8300000, guid: 3c23de8f88fc9ba498b0d232fb269dff, type: 3}
   body: {fileID: 2952145340700095060}
 --- !u!114 &8471120812580323830
 MonoBehaviour:
@@ -224,6 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpointSound: {fileID: 8300000, guid: ac2ef9f49e9913d47a234631fc894d68, type: 3}
+  defaultSpawn: {fileID: 0}
 --- !u!114 &4118347800389394291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +242,8 @@ MonoBehaviour:
   startingHealth: 5
   iFramesDuration: 2
   numberofFlashes: 3
+  deathSound: {fileID: 8300000, guid: dd6d9531e2f11434f9add7e7e09cd332, type: 3}
+  hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
 --- !u!114 &7055170458376077748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +286,25 @@ MonoBehaviour:
   cooldownTimer: 100000
   mana: {fileID: 7055170458376077748}
   button: 122
+  basicAttackSound: {fileID: 0}
+--- !u!114 &6568460200065744041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232243982665585224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a61b09555284d48a7f9242fdf85abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCooldown: 2
+  firePoint: {fileID: 7319100088535942160}
+  arrows: []
+  mana: {fileID: 7055170458376077748}
+  button: 120
+  fireballAttackSound: {fileID: 8300000, guid: 11f2fb8c24ab53741939b255bda4aab3, type: 3}
 --- !u!1 &7816824640813443420
 GameObject:
   m_ObjectHideFlags: 0

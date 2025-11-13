@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    [Header("Follow")]
     public Transform player;
 
     void Update()

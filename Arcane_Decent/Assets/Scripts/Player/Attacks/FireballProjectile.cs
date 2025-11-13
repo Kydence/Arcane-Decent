@@ -4,7 +4,7 @@ using UnityEngine;
 public class FireballProjectile : MonoBehaviour
 {
     [SerializeField] private float speed = 4f;
-    [SerializeField] private float explosionDuration = 0.3f;
+    //[SerializeField] private float explosionDuration = 0.3f;
 
     private bool hit;
     private float direction;

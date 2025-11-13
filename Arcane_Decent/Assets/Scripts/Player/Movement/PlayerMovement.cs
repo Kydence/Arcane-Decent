@@ -17,10 +17,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Layers")]
     public LayerMask groundLayer;
     
-    /*
     [Header("Sounds")]
     public AudioClip jumpSound;
-    */
 
     public Rigidbody2D body;
     Animator anim;
@@ -62,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
         // adjustable jump height
         if (Input.GetKeyUp(KeyCode.Space) && body.linearVelocity.y > 0)
         {
-
             body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
         }
 
@@ -89,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
             return; // if coyote counter is 0 or less and not on wall and don't have extra jumps don't do anything
         }
 
-        //SoundManager.instance.PlaySound(jumpSound);
+        CloseSoundManager.instance.PlaySound(jumpSound);
 
         if (isGrounded())
         {

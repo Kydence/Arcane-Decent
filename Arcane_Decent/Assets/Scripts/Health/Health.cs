@@ -14,6 +14,9 @@ public class Health : MonoBehaviour
     [SerializeField] private int numberofFlashes;
     private SpriteRenderer spriteRend;
     private bool dead;
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip hurtSound;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -27,22 +30,20 @@ public class Health : MonoBehaviour
         if (currentHealth > 0)
         {
             StartCoroutine(Invunerability());
-            //player hurt
+            CloseSoundManager.instance.PlaySound(hurtSound);
+            // hurt
         }
         else
         {
             //player dead
             if (!dead)
             {
-
-                
                 if (GetComponent<PlayerMovement>() != null)
                 {
                     anim.SetTrigger("die");
+                    CloseSoundManager.instance.PlaySound(deathSound);
                     GetComponent<PlayerMovement>().enabled = false;
-                    
                 }
-
 
                 //Enemy
                 if (GetComponentInParent<Enemypatrol>() != null)
@@ -62,7 +63,7 @@ public class Health : MonoBehaviour
                     GetComponent<RangedEnemy>().enabled = false;
                   
                 }
-            dead = true;
+                dead = true;
             }
         }
     }
