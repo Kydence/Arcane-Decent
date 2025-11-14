@@ -8,7 +8,7 @@ public class movingWall : MonoBehaviour
     [SerializeField] private Transform ground;
     [SerializeField] private float speed;
     [SerializeField] private int direction;
-
+    [SerializeField] private bool goback;
     private float thing;
     private bool begin;
   
@@ -42,6 +42,32 @@ public class movingWall : MonoBehaviour
                 }
             }
         }
+         if (goback == true) {
+            if(!begin)
+            {
+                if (direction > 0)
+                {
+                    if (ground.position.y < thing + movingDistance)
+                    {
+                        if (ground.position.y > thing)
+                        {
+                            MoveInDirection(-direction);
+                        }
+                    }
+
+                }
+                else
+                {
+                    if (ground.position.y > thing + movingDistance)
+                    {
+                        if (ground.position.y < thing)
+                        {
+                            MoveInDirection(-direction);
+                        }
+                    }
+                }
+            }
+        }
 
     }
     private void MoveInDirection(int _direction)
@@ -55,6 +81,15 @@ public class movingWall : MonoBehaviour
         if(collision.tag == "Player")
         {
             begin = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player" && goback == true)
+        {
+            //back = true;
+            begin = false;
         }
     }
 

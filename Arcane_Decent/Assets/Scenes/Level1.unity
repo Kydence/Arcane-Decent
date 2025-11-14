@@ -13170,18 +13170,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1872135451883873369, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2398879728118591283, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 2080501636}
-    - target: {fileID: 2966564207673460972, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: loop
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3167724005094003994, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: playerHealth
       value: 
@@ -13189,22 +13181,6 @@ PrefabInstance:
     - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Name
       value: Updated UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 5395888793799999694, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 805.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 5395888793799999694, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 405.2748
-      objectReference: {fileID: 0}
-    - target: {fileID: 5395888793799999694, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 2.6316
-      objectReference: {fileID: 0}
-    - target: {fileID: 5395888793799999694, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.6317
       objectReference: {fileID: 0}
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Pivot.x
