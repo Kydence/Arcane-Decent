@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireballSpell : MonoBehaviour
 {
-    [SerializeField] private GameObject fireballPrefab; // Fireball object
+    /*[SerializeField] private GameObject fireballPrefab; // Fireball object
     [SerializeField] private Transform spawnPoint;      // Where it appears (hand/staff)
     [SerializeField] private float direction = 1f;      // 1 = right, -1 = left
 
@@ -20,5 +20,5 @@ public class FireballSpell : MonoBehaviour
                 proj.SetDirection(direction);
             }
         }
-    }
+    }*/
 }

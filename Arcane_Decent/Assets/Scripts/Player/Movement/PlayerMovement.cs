@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Multiple Jumps")]
     public int extraJumps;
     int jumpCounter;
+    int jumpsUsedSinceGrounded;
+    bool wasGrounded;
     
     [Header("Layers")]
     public LayerMask groundLayer;
@@ -34,6 +36,20 @@ public class PlayerMovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
+    void Start()
+    {
+        if (PowerupState.instance != null && PowerupState.instance.hasDoubleJump)
+        {
+            EnableDoubleJump();
+        }
+        else
+        {
+            // no double jummp at start
+            extraJumps = 0;
+            jumpCounter = 0;
+        }
+    }
+
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -47,6 +63,9 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(-2, 2, 2);
         }
+
+        // check grounded once per frame
+        bool grounded = isGrounded();
 
         // set animator parameters
         anim.SetBool("IsWalk", horizontalInput != 0);
@@ -67,10 +86,16 @@ public class PlayerMovement : MonoBehaviour
         body.gravityScale = 7;
         body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
-        if (isGrounded())
+        if (grounded)
         {
             coyoteCounter = coyoteTime; // reset coyote counter when on ground
             jumpCounter = extraJumps; // reset jump counter to extra jump value
+
+            // only reset jumps used when actually landing on ground
+            if (!wasGrounded)
+            {
+                jumpsUsedSinceGrounded = 0;
+            }
         }
         else
         {
@@ -90,6 +115,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        int maxJumps = 1 + extraJumps;
+
+        // already used all jumps since landed on ground
+        if (jumpsUsedSinceGrounded >= maxJumps)
+        {
+            return;
+        }
+        
+        // if you can't jump, bail
         if (coyoteCounter < 0 && jumpCounter <= 0)
         {
             return; // if coyote counter is 0 or less and not on wall and don't have extra jumps don't do anything
@@ -99,21 +133,27 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded())
         {
+            // ground jump
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+            jumpsUsedSinceGrounded++;
         }
         else
         {
+            // air jump
             // if not on the ground and coyote counter is bigger than 0 do a normal jump
             if (coyoteCounter > 0)
             {
+                // coyote jump consumes jump and not counted as extra jump
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+                jumpsUsedSinceGrounded++;
             }
             else
             {
-                if (jumpCounter > 0) // if there are extra jumps then jump and decrease the jump counter
+                if (jumpCounter > 0) // extra jumps from powerup
                 {
                     body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
                     jumpCounter--;
+                    jumpsUsedSinceGrounded++;
                 }
             }
         }
@@ -131,6 +171,12 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.05f, groundLayer);
         return raycastHit.collider != null;
+    }
+
+    public void EnableDoubleJump()
+    {
+        extraJumps = 1;
+        jumpCounter = extraJumps;
     }
 
     public bool canAttack()

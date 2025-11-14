@@ -9,22 +9,38 @@ public class FireBallAttack : MonoBehaviour
     [SerializeField] private Mana mana;
     [SerializeField] private KeyCode button;
     [SerializeField] private AudioClip fireballAttackSound;
-    
+    private bool fireballUnlocked;
 
     private void Awake()
     {
 
     }
 
+    private void Start()
+    {
+        if (PowerupState.instance != null && PowerupState.instance.hasFireball)
+        {
+            fireballUnlocked = true;
+        }
+    }
+
     private void Update()
     {
-       
+        cooldownTimer += Time.deltaTime;
+
+        if (!fireballUnlocked)
+            return;
+        
         if (Input.GetKeyDown(button) && cooldownTimer > attackCooldown)
             if (mana.currentMana > 0 && mana.currentMana/5>=1)
             {
                 Attack();
             }
-        cooldownTimer += Time.deltaTime;
+    }
+
+    public void UnlockFireball()
+    {
+        fireballUnlocked = true;
     }
 
     private void Attack()

@@ -58,7 +58,7 @@ public class Mana : MonoBehaviour
             cooldownTimer = 0;
         }
         
-        else if(Input.GetKeyDown(KeyCode.X) && FB_cooldown > FB_attackcool && currentMana/5>=1)
+        else if(PowerupState.instance != null && PowerupState. instance.hasFireball && Input.GetKeyDown(KeyCode.X) && FB_cooldown > FB_attackcool && currentMana/5>=1)
         {
             UseMana(5);
             ManaTimer = 0;
