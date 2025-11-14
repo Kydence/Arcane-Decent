@@ -3359,6 +3359,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.322609, y: 1.2231159}
   m_EdgeRadius: 0
+--- !u!1 &807176337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5623563410044065106, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+  m_PrefabInstance: {fileID: 3690303617293496345}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &873390531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1515972645167235058, guid: 2d388b8909764e74593877f035726dfc, type: 3}
@@ -4718,7 +4723,7 @@ PrefabInstance:
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: deathscreen
       value: 
-      objectReference: {fileID: 2062028795}
+      objectReference: {fileID: 807176337}
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: iFramesDuration
       value: 2
@@ -7668,11 +7673,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1109735204187657621, guid: 4cb10d0897b7e38478abe520bcc77ba7, type: 3}
   m_PrefabInstance: {fileID: 2053930877}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2062028795 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5930007842366727096, guid: 673ef20f5c4778a40ab99270212297f7, type: 3}
-  m_PrefabInstance: {fileID: 1327769355249349282}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2062028796 stripped
 Transform:
