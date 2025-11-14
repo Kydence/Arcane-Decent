@@ -1,13 +1,11 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class bspawn : MonoBehaviour
+public class Bspawn : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public bool thing = false;
-   public void SPAWNING()
-    {
-        thing = true;
-    }
+   
+    [SerializeField] private Button bspawn;
+    public bool wait = false;
+   
+    
 }

@@ -10,30 +10,38 @@ public class PlayerRespawn : MonoBehaviour
     private Health playerHealth;
     [SerializeField] private Button bspawn;
     [SerializeField] private Button bquit;
+    private bool wait = false;
 
     void Awake()
     {
        
         playerHealth = GetComponent<Health>();
+        bspawn.onClick.AddListener(Respawn);
+
     }
-   
+    
 
     public void Respawn()
     {
+       
         // if we have a checkpoint, use it; otherwise, use a default spawn position
         
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.position; // move player to checkpoint position
+              
         }
         else if (defaultSpawn != null)
         {
             transform.position = defaultSpawn.position; // move player to default spawn position
+             
         }
-        playerHealth.Respawn(); 
+            playerHealth.Respawn();
+        
         
        
     }
+    
 
     // Activate Checkpoints
     void OnTriggerEnter2D(Collider2D collision)
@@ -46,5 +54,6 @@ public class PlayerRespawn : MonoBehaviour
             collision.GetComponent<Animator>().SetTrigger("Appear"); // trigger checkpoint animation
         }
     }
-   
+  
+ 
 }

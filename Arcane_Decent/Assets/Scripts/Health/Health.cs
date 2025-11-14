@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int numberofFlashes;
     private SpriteRenderer spriteRend;
-    private bool dead;
+    public bool dead;
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
     [SerializeField] private GameObject deathscreen;
@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
     [SerializeField] private GameObject bspawn;
     [SerializeField] private GameObject bquit;
     private Button spawnbutton;
-   
+    private bool wait = false;
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -33,6 +33,7 @@ public class Health : MonoBehaviour
         if(bspawn != null){
         deathscreen.SetActive(false);
         spawnbutton = bspawn.GetComponent<Button>();
+        //spawnbutton.onClick.AddListener(Respawn);
         bspawn.SetActive(false);
         bquit.SetActive(false);
         }
@@ -40,6 +41,7 @@ public class Health : MonoBehaviour
 
     }
     
+
 
     public void TakeDamage(float _damage)
     {
@@ -66,7 +68,7 @@ public class Health : MonoBehaviour
                     
                     bspawn.SetActive(true);
                     bquit.SetActive(true);
-                    spawnbutton.onClick.AddListener(Respawn);
+                    
                     }
 
                 }
@@ -126,10 +128,18 @@ public class Health : MonoBehaviour
         deathscreen.SetActive(false);
         Juice.SetActive(true);
         
-         bspawn.SetActive(false);
+        bspawn.SetActive(false);
         bquit.SetActive(false);
 
         GetComponent<PlayerMovement>().enabled = true;
         }
+        
+     
+        
     }
+   
+
+    
+    
+
 }
