@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FallingItem : MonoBehaviour
@@ -40,8 +41,11 @@ public class FallingItem : MonoBehaviour
         }
 
     }
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        if(collision.collider.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
