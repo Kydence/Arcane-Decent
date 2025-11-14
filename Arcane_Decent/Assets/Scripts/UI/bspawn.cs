@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Bspawn : MonoBehaviour
 {
    
-    [SerializeField] private Button bspawn;
-    public bool wait = false;
-   
+ void MainMenu()
+    {
+        SceneManager.LoadScene("")
+    }
     
 }
