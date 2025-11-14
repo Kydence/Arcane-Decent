@@ -39,7 +39,7 @@ public class PlayerRespawn : MonoBehaviour
         }
             playerHealth.Respawn();
         
-        
+        Debug.Log("respawn");
        
     }
     
@@ -58,6 +58,7 @@ public class PlayerRespawn : MonoBehaviour
      public void MainMenu()
     {
         SceneManager.LoadScene("_MainMenu");
+        Debug.Log("menu");
     }
   
  
