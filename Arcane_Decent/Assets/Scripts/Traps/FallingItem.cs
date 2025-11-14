@@ -40,8 +40,11 @@ public class FallingItem : MonoBehaviour
         }
 
     }
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        if(collision.collider.CompareTag("Player") || collision.collider.CompareTag("Ground"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

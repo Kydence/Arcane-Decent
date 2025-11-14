@@ -33,7 +33,6 @@ public class Health : MonoBehaviour
         if(bspawn != null){
         deathscreen.SetActive(false);
         spawnbutton = bspawn.GetComponent<Button>();
-        //spawnbutton.onClick.AddListener(Respawn);
         bspawn.SetActive(false);
         bquit.SetActive(false);
         }
