@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Sounds")]
     public AudioClip jumpSound;
+    public AudioClip walkSound;
 
     public Rigidbody2D body;
     Animator anim;
@@ -77,6 +78,14 @@ public class PlayerMovement : MonoBehaviour
         }
         
         isFalling();
+    }
+
+    public void PlayFootsteps()
+    {
+        if (isGrounded() && Mathf.Abs(horizontalInput) > 0.01f)
+        {
+                CloseSoundManager.instance.PlaySound(walkSound);
+        }
     }
 
     private void Jump()

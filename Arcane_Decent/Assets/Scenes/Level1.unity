@@ -522,6 +522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2080501635}
+  disY: 0
+  disX: 0
 --- !u!114 &60116957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12221,7 +12223,7 @@ PrefabInstance:
     - target: {fileID: 2016743415317604534, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: basicAttackSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: fd35286284dcca94c98bb6382238dcdd, type: 3}
     - target: {fileID: 2016743415317604534, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: 'arrows.Array.data[0]'
       value: 
@@ -13078,7 +13080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6727341690339541317, guid: ba796d79d3ed56b448b7ce17f811d4b6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7008020878111293741, guid: ba796d79d3ed56b448b7ce17f811d4b6, type: 3}
       propertyPath: MaxDistance
