@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class Bspawn : MonoBehaviour
 {
    
- void MainMenu()
+ public void MainMenu()
     {
-        SceneManager.LoadScene("")
+        SceneManager.LoadScene("_MainMenu");
     }
     
 }
