@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerRespawn : MonoBehaviour
 {
@@ -7,15 +8,20 @@ public class PlayerRespawn : MonoBehaviour
     [SerializeField] private Transform defaultSpawn;
 
     private Health playerHealth;
+    [SerializeField] private Button bspawn;
+    [SerializeField] private Button bquit;
 
     void Awake()
     {
+       
         playerHealth = GetComponent<Health>();
     }
+   
 
     public void Respawn()
     {
         // if we have a checkpoint, use it; otherwise, use a default spawn position
+        
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.position; // move player to checkpoint position
@@ -24,9 +30,9 @@ public class PlayerRespawn : MonoBehaviour
         {
             transform.position = defaultSpawn.position; // move player to default spawn position
         }
+        playerHealth.Respawn(); 
         
-        // Restore player health and reset animation
-        playerHealth.Respawn(); //Restore player health and reset animation
+       
     }
 
     // Activate Checkpoints
@@ -40,4 +46,5 @@ public class PlayerRespawn : MonoBehaviour
             collision.GetComponent<Animator>().SetTrigger("Appear"); // trigger checkpoint animation
         }
     }
+   
 }
