@@ -9,5 +9,13 @@ public class Bspawn : MonoBehaviour
     {
         SceneManager.LoadScene("_MainMenu");
     }
+    public void newGame()
+    {
+        SceneManager.LoadScene("Level1");
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     
 }
