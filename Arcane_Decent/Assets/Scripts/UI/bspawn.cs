@@ -22,5 +22,9 @@ public class Bspawn : MonoBehaviour
     #endif
     Debug.Log("Game is exiting");
     }
+    public void Credits()
+    {
+        SceneManager.LoadScene("oCreditso");
+    }
     
 }
