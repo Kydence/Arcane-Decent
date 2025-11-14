@@ -4391,6 +4391,17 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 381625770780034833, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
   m_PrefabInstance: {fileID: 1288043081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1218525268 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8471120812580323830, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
+  m_PrefabInstance: {fileID: 1288043081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbb7c7568210694da21e3137194e3e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1218807566 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7786763083619515179, guid: b8e36548cb9c62c42a3846bc2eeec3ce, type: 3}
@@ -4739,7 +4750,7 @@ PrefabInstance:
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: deathscreen
       value: 
-      objectReference: {fileID: 2062028795}
+      objectReference: {fileID: 2032982194}
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: iFramesDuration
       value: 2
@@ -7584,6 +7595,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5611323144134992116, guid: 893dfc6de6797ee479e1c6c64bebf20c, type: 3}
   m_PrefabInstance: {fileID: 2002987584}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2032982194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5766571794115070017, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+  m_PrefabInstance: {fileID: 3690303617293496345}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2039713785
 GameObject:
   m_ObjectHideFlags: 0
@@ -7747,11 +7763,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1109735204187657621, guid: 4cb10d0897b7e38478abe520bcc77ba7, type: 3}
   m_PrefabInstance: {fileID: 2053930877}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2062028795 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5930007842366727096, guid: 673ef20f5c4778a40ab99270212297f7, type: 3}
-  m_PrefabInstance: {fileID: 1327769355249349282}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2062028796 stripped
 Transform:
@@ -8197,6 +8208,14 @@ PrefabInstance:
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1218525268}
+    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
