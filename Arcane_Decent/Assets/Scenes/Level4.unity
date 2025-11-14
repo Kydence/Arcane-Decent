@@ -3359,11 +3359,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.322609, y: 1.2231159}
   m_EdgeRadius: 0
---- !u!1 &807176337 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5623563410044065106, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-  m_PrefabInstance: {fileID: 3690303617293496345}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &873390531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1515972645167235058, guid: 2d388b8909764e74593877f035726dfc, type: 3}
@@ -4396,17 +4391,6 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 381625770780034833, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
   m_PrefabInstance: {fileID: 1288043081}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1218525268 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8471120812580323830, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
-  m_PrefabInstance: {fileID: 1288043081}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcbb7c7568210694da21e3137194e3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1218807566 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7786763083619515179, guid: b8e36548cb9c62c42a3846bc2eeec3ce, type: 3}
@@ -4755,7 +4739,7 @@ PrefabInstance:
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: deathscreen
       value: 
-      objectReference: {fileID: 807176337}
+      objectReference: {fileID: 2062028795}
     - target: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: iFramesDuration
       value: 2
@@ -7764,6 +7748,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1109735204187657621, guid: 4cb10d0897b7e38478abe520bcc77ba7, type: 3}
   m_PrefabInstance: {fileID: 2053930877}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2062028795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5930007842366727096, guid: 673ef20f5c4778a40ab99270212297f7, type: 3}
+  m_PrefabInstance: {fileID: 1327769355249349282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2062028796 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3774871769881489811, guid: 673ef20f5c4778a40ab99270212297f7, type: 3}
@@ -8208,22 +8197,6 @@ PrefabInstance:
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1218525268}
-    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Respawn
-      objectReference: {fileID: 0}
-    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerRespawn, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6035197875130584966, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
