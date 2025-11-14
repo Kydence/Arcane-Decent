@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class PlayerRespawn : MonoBehaviour
 {
     public AudioClip checkpointSound; // sound played when picking up new checkpoint
@@ -17,6 +17,7 @@ public class PlayerRespawn : MonoBehaviour
        
         playerHealth = GetComponent<Health>();
         bspawn.onClick.AddListener(Respawn);
+        bquit.onClick.AddListener(MainMenu);
 
     }
     
@@ -53,6 +54,10 @@ public class PlayerRespawn : MonoBehaviour
             collision.GetComponent<Collider2D>().enabled = false; // deactivate checkpoint collider
             collision.GetComponent<Animator>().SetTrigger("Appear"); // trigger checkpoint animation
         }
+    }
+     public void MainMenu()
+    {
+        SceneManager.LoadScene("_MainMenu");
     }
   
  

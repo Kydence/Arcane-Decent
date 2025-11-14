@@ -20,7 +20,7 @@ public class FireBallAttack : MonoBehaviour
     {
        
         if (Input.GetKeyDown(button) && cooldownTimer > attackCooldown)
-            if (mana.currentMana > 0)
+            if (mana.currentMana > 0 && mana.currentMana/5>=1)
             {
                 Attack();
             }
