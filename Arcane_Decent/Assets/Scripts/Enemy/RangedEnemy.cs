@@ -20,10 +20,11 @@ public class RangedEnemy : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
 
     private Enemypatrol enemypatrol;
-
+    [SerializeField] private Animator anim;
     void Awake()
     {
         enemypatrol = GetComponentInParent<Enemypatrol>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -34,10 +35,12 @@ public class RangedEnemy : MonoBehaviour
         {
             if (cooldownTimer >= attackCoolDown)
             {
+                
                 cooldownTimer = 0;
+                anim.SetTrigger("Ranged");
 
                 //attack
-                RangedAttack();
+                //RangedAttack();
             }
         }
         if (enemypatrol != null)
