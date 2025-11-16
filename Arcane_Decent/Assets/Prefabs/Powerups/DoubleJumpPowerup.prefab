@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4412373968261372911}
   - component: {fileID: 1303560249219599612}
   - component: {fileID: 4387006985342048972}
-  - component: {fileID: 7046855342215810588}
   m_Layer: 5
   m_Name: DoubleJumpPowerup
   m_TagString: Untagged
@@ -153,17 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: {fileID: 8300000, guid: 7c212100ac621ec439ef527ea7878e4a, type: 3}
---- !u!114 &7046855342215810588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3807726636845183039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e919066525094f4a887f876d571c8a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 0.25
-  frequency: 2
