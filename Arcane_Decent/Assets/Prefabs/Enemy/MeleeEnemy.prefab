@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a6a841a04ef64381b8f7bb76578f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCoolDown: 5
+  attackCoolDown: 1
   colliderDistance: 0.7
   range: 1.32
   damage: 2
@@ -171,3 +171,10 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 0
   numberofFlashes: 0
+  dead: 0
+  deathSound: {fileID: 0}
+  hurtSound: {fileID: 0}
+  deathscreen: {fileID: 0}
+  Juice: {fileID: 0}
+  bspawn: {fileID: 0}
+  bquit: {fileID: 0}

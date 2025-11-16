@@ -17,10 +17,13 @@ public class Enemypatrol : MonoBehaviour
     private bool movingLeft;
     [SerializeField] private float idleDuration;
     private float idleTimer;
+    
+   [SerializeField] private Animator anim;
 
     private void Awake()
     {
         initScale = enemy.localScale;
+       
     }
 
     void Update()
@@ -49,15 +52,18 @@ public class Enemypatrol : MonoBehaviour
 
     private void DirectionChange()
     {
+        anim.SetBool("isWalk",false);
         idleTimer += Time.deltaTime;
         if (idleTimer > idleDuration)
         {
+           
             movingLeft = !movingLeft;
         }
     }
 
     private void MoveInDirection(int _direction)
     {
+        anim.SetBool("isWalk",true);
         idleTimer = 0;
         //Make Enemy face direction
         enemy.localScale = new Vector2(Mathf.Abs(initScale.x) * _direction, initScale.y);
