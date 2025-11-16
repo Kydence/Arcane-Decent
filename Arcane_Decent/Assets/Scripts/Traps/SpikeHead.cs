@@ -15,6 +15,7 @@ public class SpikeHead : EnemyDamage
 
     private Vector3[] directions = new Vector3[4];
     private bool attacking;
+    [SerializeField] private AudioClip spikeHeadSound;
 
     
     private void OnEnable()
@@ -25,7 +26,10 @@ public class SpikeHead : EnemyDamage
     {
         //Move spikehead to destination only if attacking
         if (attacking)
+        {
+            FarSoundManager.instance.PlaySound(spikeHeadSound);
             transform.Translate(destination * Time.deltaTime * speed);
+        }
         else
         {
             checkTimer += Time.deltaTime;
