@@ -20,7 +20,7 @@ public class RangedEnemy : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
 
     private Enemypatrol enemypatrol;
-    [SerializeField] private Animator anim;
+     private Animator anim;
     void Awake()
     {
         enemypatrol = GetComponentInParent<Enemypatrol>();
