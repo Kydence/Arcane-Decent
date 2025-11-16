@@ -1,0 +1,5343 @@
+fileFormatVersion: 2
+guid: 28da1723725324042a0d22a32be0c7bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6555599992873420195
+    second: slimes-removebg-preview_0
+  - first:
+      213: -8973689612410143761
+    second: slimes-removebg-preview_1
+  - first:
+      213: 8962421604505411424
+    second: slimes-removebg-preview_2
+  - first:
+      213: 7592754726607697821
+    second: slimes-removebg-preview_3
+  - first:
+      213: -3888705249000524126
+    second: slimes-removebg-preview_4
+  - first:
+      213: 1102868249182779833
+    second: slimes-removebg-preview_5
+  - first:
+      213: -1732352063775186823
+    second: slimes-removebg-preview_6
+  - first:
+      213: -6598180896205354490
+    second: slimes-removebg-preview_7
+  - first:
+      213: 3305326980375339801
+    second: slimes-removebg-preview_8
+  - first:
+      213: 3404732961292521558
+    second: slimes-removebg-preview_9
+  - first:
+      213: 2902854471240382041
+    second: slimes-removebg-preview_10
+  - first:
+      213: -6273567530820643350
+    second: slimes-removebg-preview_11
+  - first:
+      213: -3466941654182291969
+    second: slimes-removebg-preview_12
+  - first:
+      213: 5081902440552733734
+    second: slimes-removebg-preview_13
+  - first:
+      213: 5602369309234062080
+    second: slimes-removebg-preview_14
+  - first:
+      213: 8095745783883047316
+    second: slimes-removebg-preview_15
+  - first:
+      213: 5106836362268861740
+    second: slimes-removebg-preview_16
+  - first:
+      213: 8620816483846112101
+    second: slimes-removebg-preview_17
+  - first:
+      213: -82959908265529066
+    second: slimes-removebg-preview_18
+  - first:
+      213: -561331885159628708
+    second: slimes-removebg-preview_19
+  - first:
+      213: -8012543057966136474
+    second: slimes-removebg-preview_20
+  - first:
+      213: 1852080887832285625
+    second: slimes-removebg-preview_21
+  - first:
+      213: 3714597109099649414
+    second: slimes-removebg-preview_22
+  - first:
+      213: 5549261433609320850
+    second: slimes-removebg-preview_23
+  - first:
+      213: 8049444683168358986
+    second: slimes-removebg-preview_24
+  - first:
+      213: 8501031927249095470
+    second: slimes-removebg-preview_25
+  - first:
+      213: -1100655262121260284
+    second: slimes-removebg-preview_26
+  - first:
+      213: -6098105493309145062
+    second: slimes-removebg-preview_27
+  - first:
+      213: 8101529853442605802
+    second: slimes-removebg-preview_28
+  - first:
+      213: -311305059773502882
+    second: slimes-removebg-preview_29
+  - first:
+      213: 4417312305289927318
+    second: slimes-removebg-preview_30
+  - first:
+      213: -8300963189520196172
+    second: slimes-removebg-preview_31
+  - first:
+      213: -61908846514367183
+    second: slimes-removebg-preview_32
+  - first:
+      213: -6371789338514526291
+    second: slimes-removebg-preview_33
+  - first:
+      213: 1787105706419384723
+    second: slimes-removebg-preview_34
+  - first:
+      213: 3852040244395052508
+    second: slimes-removebg-preview_35
+  - first:
+      213: -4639045807124385715
+    second: slimes-removebg-preview_36
+  - first:
+      213: -6883536434375059737
+    second: slimes-removebg-preview_37
+  - first:
+      213: -1871878567380537810
+    second: slimes-removebg-preview_38
+  - first:
+      213: 5216150752109086149
+    second: slimes-removebg-preview_39
+  - first:
+      213: 6901294143460616449
+    second: slimes-removebg-preview_40
+  - first:
+      213: 5986474693380172072
+    second: slimes-removebg-preview_41
+  - first:
+      213: -351095154890332109
+    second: slimes-removebg-preview_42
+  - first:
+      213: 605173670922357286
+    second: slimes-removebg-preview_43
+  - first:
+      213: 6992241845034372280
+    second: slimes-removebg-preview_44
+  - first:
+      213: 2206317541669298128
+    second: slimes-removebg-preview_45
+  - first:
+      213: 629278771686688551
+    second: slimes-removebg-preview_46
+  - first:
+      213: -8894449712447934427
+    second: slimes-removebg-preview_47
+  - first:
+      213: -1832388975438883841
+    second: slimes-removebg-preview_48
+  - first:
+      213: -4846784277052140595
+    second: slimes-removebg-preview_49
+  - first:
+      213: 7915432231756449743
+    second: slimes-removebg-preview_50
+  - first:
+      213: 3319934745670559871
+    second: slimes-removebg-preview_51
+  - first:
+      213: 7139869141715201022
+    second: slimes-removebg-preview_52
+  - first:
+      213: -3246439560853524994
+    second: slimes-removebg-preview_53
+  - first:
+      213: 8283449388866991178
+    second: slimes-removebg-preview_54
+  - first:
+      213: 6837816004425172961
+    second: slimes-removebg-preview_55
+  - first:
+      213: 6244464366692881032
+    second: slimes-removebg-preview_56
+  - first:
+      213: 6678364196054709658
+    second: slimes-removebg-preview_57
+  - first:
+      213: -4078233717665210436
+    second: slimes-removebg-preview_58
+  - first:
+      213: -7240695013029500439
+    second: slimes-removebg-preview_59
+  - first:
+      213: 4542522183157321085
+    second: slimes-removebg-preview_60
+  - first:
+      213: -1200663757320998573
+    second: slimes-removebg-preview_61
+  - first:
+      213: 677982144114362288
+    second: slimes-removebg-preview_62
+  - first:
+      213: -9201095789592293747
+    second: slimes-removebg-preview_63
+  - first:
+      213: 2937763266895291227
+    second: slimes-removebg-preview_64
+  - first:
+      213: 8455031089418851375
+    second: slimes-removebg-preview_65
+  - first:
+      213: 7473303597881140914
+    second: slimes-removebg-preview_66
+  - first:
+      213: 7772342702061830651
+    second: slimes-removebg-preview_67
+  - first:
+      213: 7104701094605410590
+    second: slimes-removebg-preview_68
+  - first:
+      213: 629472844976014317
+    second: slimes-removebg-preview_69
+  - first:
+      213: -7721739540078948125
+    second: slimes-removebg-preview_70
+  - first:
+      213: 5397038091587591888
+    second: slimes-removebg-preview_71
+  - first:
+      213: 7521767617901249099
+    second: slimes-removebg-preview_72
+  - first:
+      213: 6858452069022191462
+    second: slimes-removebg-preview_73
+  - first:
+      213: -7899880746981013926
+    second: slimes-removebg-preview_74
+  - first:
+      213: -4804905000505160876
+    second: slimes-removebg-preview_75
+  - first:
+      213: 6293577286298322267
+    second: slimes-removebg-preview_76
+  - first:
+      213: -3497568955760950572
+    second: slimes-removebg-preview_77
+  - first:
+      213: 7955057836850779490
+    second: slimes-removebg-preview_78
+  - first:
+      213: -2665873374423990610
+    second: slimes-removebg-preview_79
+  - first:
+      213: 2750116233174556275
+    second: slimes-removebg-preview_80
+  - first:
+      213: 3109956720395065296
+    second: slimes-removebg-preview_81
+  - first:
+      213: 2105599380306874456
+    second: slimes-removebg-preview_82
+  - first:
+      213: 6785981249602524893
+    second: slimes-removebg-preview_83
+  - first:
+      213: 5042120975750693781
+    second: slimes-removebg-preview_84
+  - first:
+      213: -5281812450054066207
+    second: slimes-removebg-preview_85
+  - first:
+      213: -717295528435566238
+    second: slimes-removebg-preview_86
+  - first:
+      213: 7865098488314101165
+    second: slimes-removebg-preview_87
+  - first:
+      213: 2567155580926253081
+    second: slimes-removebg-preview_88
+  - first:
+      213: -7990531118635282346
+    second: slimes-removebg-preview_89
+  - first:
+      213: -8182074391254470709
+    second: slimes-removebg-preview_90
+  - first:
+      213: 8614965869042012715
+    second: slimes-removebg-preview_91
+  - first:
+      213: 2779135929364024946
+    second: slimes-removebg-preview_92
+  - first:
+      213: 3578457842459472717
+    second: slimes-removebg-preview_93
+  - first:
+      213: -3602401720990197575
+    second: slimes-removebg-preview_94
+  - first:
+      213: -7902592485772828379
+    second: slimes-removebg-preview_95
+  - first:
+      213: 9034733720574255823
+    second: slimes-removebg-preview_96
+  - first:
+      213: -8316186964360001485
+    second: slimes-removebg-preview_97
+  - first:
+      213: 2222489938108064437
+    second: slimes-removebg-preview_98
+  - first:
+      213: -8804374982354368687
+    second: slimes-removebg-preview_99
+  - first:
+      213: 3798879067964106904
+    second: slimes-removebg-preview_100
+  - first:
+      213: 2295866557994793929
+    second: slimes-removebg-preview_101
+  - first:
+      213: -1301480151094769113
+    second: slimes-removebg-preview_102
+  - first:
+      213: 6579695852117670031
+    second: slimes-removebg-preview_103
+  - first:
+      213: -4159145349535975706
+    second: slimes-removebg-preview_104
+  - first:
+      213: -1184245483293511470
+    second: slimes-removebg-preview_105
+  - first:
+      213: -4747885402615766949
+    second: slimes-removebg-preview_106
+  - first:
+      213: -8197344611585272794
+    second: slimes-removebg-preview_107
+  - first:
+      213: 2624725669471219276
+    second: slimes-removebg-preview_108
+  - first:
+      213: 8681895977380762832
+    second: slimes-removebg-preview_109
+  - first:
+      213: 2768684365840116718
+    second: slimes-removebg-preview_110
+  - first:
+      213: 6345307303075234197
+    second: slimes-removebg-preview_111
+  - first:
+      213: 6742785869893096423
+    second: slimes-removebg-preview_112
+  - first:
+      213: 8068906820444391704
+    second: slimes-removebg-preview_113
+  - first:
+      213: -2600844989055163724
+    second: slimes-removebg-preview_114
+  - first:
+      213: -8759198036680845009
+    second: slimes-removebg-preview_115
+  - first:
+      213: 8855043627231970427
+    second: slimes-removebg-preview_116
+  - first:
+      213: 3755642696735870313
+    second: slimes-removebg-preview_117
+  - first:
+      213: 5563493132306937452
+    second: slimes-removebg-preview_118
+  - first:
+      213: -5053222613609516268
+    second: slimes-removebg-preview_119
+  - first:
+      213: -3176446101021267886
+    second: slimes-removebg-preview_120
+  - first:
+      213: -374111528539182655
+    second: slimes-removebg-preview_121
+  - first:
+      213: 7487947813157493387
+    second: slimes-removebg-preview_122
+  - first:
+      213: -628214300040506179
+    second: slimes-removebg-preview_123
+  - first:
+      213: 8882946998227506504
+    second: slimes-removebg-preview_124
+  - first:
+      213: -5481940662349286598
+    second: slimes-removebg-preview_125
+  - first:
+      213: 9092401087059223855
+    second: slimes-removebg-preview_126
+  - first:
+      213: -7544633051197584651
+    second: slimes-removebg-preview_127
+  - first:
+      213: 7381398077862896938
+    second: slimes-removebg-preview_128
+  - first:
+      213: 872036045612607314
+    second: slimes-removebg-preview_129
+  - first:
+      213: -6241608947549866484
+    second: slimes-removebg-preview_130
+  - first:
+      213: -6919865404676181812
+    second: slimes-removebg-preview_131
+  - first:
+      213: -6121778468943184573
+    second: slimes-removebg-preview_132
+  - first:
+      213: 3957797600334041401
+    second: slimes-removebg-preview_133
+  - first:
+      213: 1343665703377671352
+    second: slimes-removebg-preview_134
+  - first:
+      213: 1700287145274688338
+    second: slimes-removebg-preview_135
+  - first:
+      213: -9070031962280631614
+    second: slimes-removebg-preview_136
+  - first:
+      213: 6191481871348577251
+    second: slimes-removebg-preview_137
+  - first:
+      213: 3575135983369092099
+    second: slimes-removebg-preview_138
+  - first:
+      213: -5558393867388901825
+    second: slimes-removebg-preview_139
+  - first:
+      213: -1867552001000828374
+    second: slimes-removebg-preview_140
+  - first:
+      213: -2524151971842966416
+    second: slimes-removebg-preview_141
+  - first:
+      213: 4149293323896201650
+    second: slimes-removebg-preview_142
+  - first:
+      213: -3930203621936333279
+    second: slimes-removebg-preview_143
+  - first:
+      213: 5813366896156677218
+    second: slimes-removebg-preview_144
+  - first:
+      213: -4142450711254089598
+    second: slimes-removebg-preview_145
+  - first:
+      213: 6680686052842600947
+    second: slimes-removebg-preview_146
+  - first:
+      213: -764948095748267093
+    second: slimes-removebg-preview_147
+  - first:
+      213: 4949559562979769328
+    second: slimes-removebg-preview_148
+  - first:
+      213: -7688397231464644050
+    second: slimes-removebg-preview_149
+  - first:
+      213: 7916675148312291117
+    second: slimes-removebg-preview_150
+  - first:
+      213: 1295817879799544411
+    second: slimes-removebg-preview_151
+  - first:
+      213: 5802029984415477392
+    second: slimes-removebg-preview_152
+  - first:
+      213: -3527311741823442890
+    second: slimes-removebg-preview_153
+  - first:
+      213: -2628476424850847212
+    second: slimes-removebg-preview_154
+  - first:
+      213: -5925719806908698266
+    second: slimes-removebg-preview_155
+  - first:
+      213: 120616562369359713
+    second: slimes-removebg-preview_156
+  - first:
+      213: -2452321829310041881
+    second: slimes-removebg-preview_157
+  - first:
+      213: -2057920819303359683
+    second: slimes-removebg-preview_158
+  - first:
+      213: 5065395253722723655
+    second: slimes-removebg-preview_159
+  - first:
+      213: 8861417335216198901
+    second: slimes-removebg-preview_160
+  - first:
+      213: -6548586192371644686
+    second: slimes-removebg-preview_161
+  - first:
+      213: -230469879467435586
+    second: slimes-removebg-preview_162
+  - first:
+      213: 5607197121516683244
+    second: slimes-removebg-preview_163
+  - first:
+      213: -557862410650863233
+    second: slimes-removebg-preview_164
+  - first:
+      213: -6723728163442800443
+    second: slimes-removebg-preview_165
+  - first:
+      213: 4944779842192919454
+    second: slimes-removebg-preview_166
+  - first:
+      213: -5480851092213515170
+    second: slimes-removebg-preview_167
+  - first:
+      213: -8899146792606457291
+    second: slimes-removebg-preview_168
+  - first:
+      213: -917599107332672481
+    second: slimes-removebg-preview_169
+  - first:
+      213: 522672480914441543
+    second: slimes-removebg-preview_170
+  - first:
+      213: 2531977594324181828
+    second: slimes-removebg-preview_171
+  - first:
+      213: -691545626195247127
+    second: slimes-removebg-preview_172
+  - first:
+      213: -8244172947744005518
+    second: slimes-removebg-preview_173
+  - first:
+      213: -1526309339520605662
+    second: slimes-removebg-preview_174
+  - first:
+      213: 4457852858425192302
+    second: slimes-removebg-preview_175
+  - first:
+      213: 7372027248167759646
+    second: slimes-removebg-preview_176
+  - first:
+      213: 7404513947045004389
+    second: slimes-removebg-preview_177
+  - first:
+      213: 2034089736103761687
+    second: slimes-removebg-preview_178
+  - first:
+      213: 446718611172776354
+    second: slimes-removebg-preview_179
+  - first:
+      213: -6802492221106933774
+    second: slimes-removebg-preview_180
+  - first:
+      213: 6516229045248266233
+    second: slimes-removebg-preview_181
+  - first:
+      213: -8519327361639679320
+    second: slimes-removebg-preview_182
+  - first:
+      213: -6349097152358519108
+    second: slimes-removebg-preview_183
+  - first:
+      213: -5509955227729820408
+    second: slimes-removebg-preview_184
+  - first:
+      213: 9222155210233672910
+    second: slimes-removebg-preview_185
+  - first:
+      213: 2906121410643148014
+    second: slimes-removebg-preview_186
+  - first:
+      213: 4460852703709419023
+    second: slimes-removebg-preview_187
+  - first:
+      213: 1878829249285669945
+    second: slimes-removebg-preview_188
+  - first:
+      213: 4586725290648980763
+    second: slimes-removebg-preview_189
+  - first:
+      213: 7982923550748556898
+    second: slimes-removebg-preview_190
+  - first:
+      213: 5148879440084288176
+    second: slimes-removebg-preview_191
+  - first:
+      213: -6027326616438016473
+    second: slimes-removebg-preview_192
+  - first:
+      213: 7317970472563975203
+    second: slimes-removebg-preview_193
+  - first:
+      213: -1047285756151611792
+    second: slimes-removebg-preview_194
+  - first:
+      213: 7913976539662512120
+    second: slimes-removebg-preview_195
+  - first:
+      213: -2184002294431472475
+    second: slimes-removebg-preview_196
+  - first:
+      213: 2436601053172866834
+    second: slimes-removebg-preview_197
+  - first:
+      213: 757352902622614645
+    second: slimes-removebg-preview_198
+  - first:
+      213: -6818403325314689804
+    second: slimes-removebg-preview_199
+  - first:
+      213: 6295115317283700846
+    second: slimes-removebg-preview_200
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimes-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 606
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5af93f1a84d505a0800000000000000
+      internalID: -6555599992873420195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb3ea797dc077380800000000000000
+      internalID: -8973689612410143761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fd4dfd6fae06c70800000000000000
+      internalID: 8962421604505411424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97be1a1232ee5960800000000000000
+      internalID: 7592754726607697821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a67025ed2b880ac0800000000000000
+      internalID: -3888705249000524126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9b89254dc2e4f00800000000000000
+      internalID: 1102868249182779833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970e3c4f9f275f7e0800000000000000
+      internalID: -1732352063775186823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a49edfe6d8e64a0800000000000000
+      internalID: -6598180896205354490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 606
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91369c35061eedd20800000000000000
+      internalID: 3305326980375339801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 606
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65097e8d69a004f20800000000000000
+      internalID: 3404732961292521558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 574
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956ffe8f2c2094820800000000000000
+      internalID: 2902854471240382041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 574
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5d20bc19fcfe8a0800000000000000
+      internalID: -6273567530820643350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 574
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff595752fe2f2efc0800000000000000
+      internalID: -3466941654182291969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 574
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c1658385b868640800000000000000
+      internalID: 5081902440552733734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 574
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0036271443d9fbd40800000000000000
+      internalID: 5602369309234062080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 574
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4912738b5edd95070800000000000000
+      internalID: 8095745783883047316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 574
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2565134d902fd640800000000000000
+      internalID: 5106836362268861740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 574
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563ca71caea43a770800000000000000
+      internalID: 8620816483846112101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 574
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611fb39276449def0800000000000000
+      internalID: -82959908265529066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 574
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50c5ffdf9fb538f0800000000000000
+      internalID: -561331885159628708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 542
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66308628a8abdc090800000000000000
+      internalID: -8012543057966136474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 542
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1988631c9e3b910800000000000000
+      internalID: 1852080887832285625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 544
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689d393d366ec8330800000000000000
+      internalID: 3714597109099649414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 546
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299fe046fdfe20d40800000000000000
+      internalID: 5549261433609320850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 546
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422863aa4f55bf60800000000000000
+      internalID: 8049444683168358986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 545
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bcfe75f7bb9f570800000000000000
+      internalID: 8501031927249095470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 543
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b0911eedfa9b0f0800000000000000
+      internalID: -1100655262121260284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 542
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10437cec5d2f5ba0800000000000000
+      internalID: -6098105493309145062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 542
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae24bab5a7a6e6070800000000000000
+      internalID: 8101529853442605802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 542
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a2b6f82b50eabf0800000000000000
+      internalID: -311305059773502882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 510
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a94c243227d4d30800000000000000
+      internalID: 4417312305289927318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 510
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd1e03a5fd0dcc80800000000000000
+      internalID: -8300963189520196172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1359e0b6b3e042ff0800000000000000
+      internalID: -61908846514367183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf68361b5bd297a0800000000000000
+      internalID: -6371789338514526291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3917337eb231dc810800000000000000
+      internalID: 1787105706419384723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd0dab7132357530800000000000000
+      internalID: 3852040244395052508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 510
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40f599ca6cce9fb0800000000000000
+      internalID: -4639045807124385715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 510
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e69d9e5514c870a0800000000000000
+      internalID: -6883536434375059737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 522
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ead905c50c506e0800000000000000
+      internalID: -1871878567380537810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 510
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c54952097d736840800000000000000
+      internalID: 5216150752109086149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 510
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092477757256cf50800000000000000
+      internalID: 6901294143460616449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 478
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8296ac3140b341350800000000000000
+      internalID: 5986474693380172072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 478
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338a66a11d8a02bf0800000000000000
+      internalID: -351095154890332109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 478
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a0fb25f32066800800000000000000
+      internalID: 605173670922357286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 478
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc45ec59ee690160800000000000000
+      internalID: 6992241845034372280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 478
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df59e45d1a6e9e10800000000000000
+      internalID: 2206317541669298128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 478
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727441375b5abb800800000000000000
+      internalID: 629278771686688551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 478
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52037f08c11909480800000000000000
+      internalID: -8894449712447934427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 478
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff39f9c6feb0296e0800000000000000
+      internalID: -1832388975438883841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 478
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3db5f1163ccbcb0800000000000000
+      internalID: -4846784277052140595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 478
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc745815da349dd60800000000000000
+      internalID: 7915432231756449743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ab29bf07c21e20800000000000000
+      internalID: 3319934745670559871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb25bed729e51360800000000000000
+      internalID: 7139869141715201022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdec867b6452f2d0800000000000000
+      internalID: -3246439560853524994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f752e459b4f270800000000000000
+      internalID: 8283449388866991178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e74e3f7d6dc4ee50800000000000000
+      internalID: 6837816004425172961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8825055c14bc8a650800000000000000
+      internalID: 6244464366692881032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9537825ad05eac50800000000000000
+      internalID: 6678364196054709658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf5b8b8a043767c0800000000000000
+      internalID: -4078233717665210436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92f6d9f32e38b90800000000000000
+      internalID: -7240695013029500439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d8c67bbd74a0f30800000000000000
+      internalID: 4542522183157321085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 414
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35132329ca2665fe0800000000000000
+      internalID: -1200663757320998573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 414
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b78efffa2da86900800000000000000
+      internalID: 677982144114362288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 414
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e420df0242f4080800000000000000
+      internalID: -9201095789592293747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 414
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b532c75502805c820800000000000000
+      internalID: 2937763266895291227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 414
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24d1b9aafd465570800000000000000
+      internalID: 8455031089418851375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 414
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6aa5ae60286b760800000000000000
+      internalID: 7473303597881140914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 414
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1cef40288ecdb60800000000000000
+      internalID: 7772342702061830651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 414
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d843d008f89260800000000000000
+      internalID: 7104701094605410590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 414
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3cc88a7365cb800800000000000000
+      internalID: 629472844976014317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 414
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e09181ccced6d490800000000000000
+      internalID: -7721739540078948125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 382
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de9450bc8126ea40800000000000000
+      internalID: 5397038091587591888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 382
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424a04ebcfa26860800000000000000
+      internalID: 7521767617901249099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 383
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f4c13b1dd1e2f50800000000000000
+      internalID: 6858452069022191462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 386
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56cf34e05cfd5290800000000000000
+      internalID: -7899880746981013926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 385
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b44690c5c815db0800000000000000
+      internalID: -4804905000505160876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 385
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5547447237475750800000000000000
+      internalID: 6293577286298322267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d24f6ec093267fc0800000000000000
+      internalID: -3497568955760950572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 382
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2659d2574fa066e60800000000000000
+      internalID: 7955057836850779490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 382
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae39455a4ae00bd0800000000000000
+      internalID: -2665873374423990610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 382
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e9761b4206a2620800000000000000
+      internalID: 2750116233174556275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 350
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d79cf1f829c82b20800000000000000
+      internalID: 3109956720395065296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 350
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850597efa77983d10800000000000000
+      internalID: 2105599380306874456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 350
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6150b2ef5ac2e50800000000000000
+      internalID: 6785981249602524893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 350
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938a2a205639f540800000000000000
+      internalID: 5042120975750693781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 350
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efaa489f8b33b6b0800000000000000
+      internalID: -5281812450054066207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 350
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2693f9c6487ab06f0800000000000000
+      internalID: -717295528435566238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 350
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad7c6f6761762d60800000000000000
+      internalID: 7865098488314101165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 350
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9185544466e50a320800000000000000
+      internalID: 2567155580926253081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 350
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6501a03884eeb1190800000000000000
+      internalID: -7990531118635282346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 350
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe47f01be637e80800000000000000
+      internalID: -8182074391254470709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 318
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b221d5850d18e8770800000000000000
+      internalID: 8614965869042012715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 318
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e844c3769719620800000000000000
+      internalID: 2779135929364024946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 318
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43f18fb27c39a130800000000000000
+      internalID: 3578457842459472717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 318
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b89f1a98b2b10ec0800000000000000
+      internalID: -3602401720990197575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 318
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521e6d0010a545290800000000000000
+      internalID: -7902592485772828379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 318
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc262176372d16d70800000000000000
+      internalID: 9034733720574255823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 318
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33886975408f69c80800000000000000
+      internalID: -8316186964360001485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 318
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2afcdc2ded7de10800000000000000
+      internalID: 2222489938108064437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 318
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1578e63e99390d580800000000000000
+      internalID: -8804374982354368687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 318
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898eaae826458b430800000000000000
+      internalID: 3798879067964106904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb7af0787e8cdf10800000000000000
+      internalID: 2295866557994793929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a46c7b2b630fde0800000000000000
+      internalID: -1301480151094769113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88b59b4486cf4b50800000000000000
+      internalID: 6579695852117670031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6b0b7375fb746c0800000000000000
+      internalID: -4159145349535975706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0fd61e107b09fe0800000000000000
+      internalID: -1184245483293511470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5023d6b16f1c1eb0800000000000000
+      internalID: -4747885402615766949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6245ff4d18e2d3e80800000000000000
+      internalID: -8197344611585272794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6ea90716ec6420800000000000000
+      internalID: 2624725669471219276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d45cac846a4c7870800000000000000
+      internalID: 8681895977380762832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebe319f2c75c6620800000000000000
+      internalID: 2768684365840116718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591cd7e8f5f0f0850800000000000000
+      internalID: 6345307303075234197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 254
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3508b1600339d50800000000000000
+      internalID: 6742785869893096423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 254
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819805690048aff60800000000000000
+      internalID: 8068906820444391704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b223872341f7ebd0800000000000000
+      internalID: -2600844989055163724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29d65a3bc3117680800000000000000
+      internalID: -8759198036680845009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 254
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b748fbf434f63ea70800000000000000
+      internalID: 8855043627231970427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4b3a6229be1430800000000000000
+      internalID: 3755642696735870313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66fa75f68f753d40800000000000000
+      internalID: 5563493132306937452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 254
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41375d85ec85fd9b0800000000000000
+      internalID: -5053222613609516268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 254
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258e374c91ffae3d0800000000000000
+      internalID: -3176446101021267886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 222
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c92b030c83eecaf0800000000000000
+      internalID: -374111528539182655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 222
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a5aebfcd88ae760800000000000000
+      internalID: 7487947813157493387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4d34b2c622847f0800000000000000
+      internalID: -628214300040506179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 226
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84519f32b31964b70800000000000000
+      internalID: 8882946998227506504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 226
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33b6ec130c3ce3b0800000000000000
+      internalID: -5481940662349286598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 225
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f256a857d92be2e70800000000000000
+      internalID: 9092401087059223855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 223
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa42be86341c4790800000000000000
+      internalID: -7544633051197584651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 222
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e4c8817eff6660800000000000000
+      internalID: 7381398077862896938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 222
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257631ac9281a1c00800000000000000
+      internalID: 872036045612607314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06f36e4bb95169a0800000000000000
+      internalID: -6241608947549866484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 190
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0f2c4d313b7ff90800000000000000
+      internalID: -6919865404676181812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 190
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34db105cae21b0ba0800000000000000
+      internalID: -6121778468943184573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 190
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ddccb2fbece630800000000000000
+      internalID: 3957797600334041401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 190
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b493b296d8a5a210800000000000000
+      internalID: 1343665703377671352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253c24e6622a89710800000000000000
+      internalID: 1700287145274688338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 190
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2e2d24cf5c02280800000000000000
+      internalID: -9070031962280631614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 190
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3b00745ff8ce550800000000000000
+      internalID: 6191481871348577251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 190
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c7e682c3f6d9130800000000000000
+      internalID: 3575135983369092099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 190
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36239c2a3e9cd2b0800000000000000
+      internalID: -5558393867388901825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 190
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2296cc895f1516e0800000000000000
+      internalID: -1867552001000828374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cb237b72968fcd0800000000000000
+      internalID: -2524151971842966416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1abbf4b40459930800000000000000
+      internalID: 4149293323896201650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 158
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef78301ac1579c0800000000000000
+      internalID: -3930203621936333279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 158
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2641f6a346a3da050800000000000000
+      internalID: 5813366896156677218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 158
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c228960f0386c0800000000000000
+      internalID: -4142450711254089598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 158
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9f69bb19096bc50800000000000000
+      internalID: 6680686052842600947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 158
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3205182cb5265f0800000000000000
+      internalID: -764948095748267093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 158
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbfb0ad23e50b440800000000000000
+      internalID: 4949559562979769328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 158
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22047ee3735d4590800000000000000
+      internalID: -7688397231464644050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 158
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2721516a1eaddd60800000000000000
+      internalID: 7916675148312291117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3d030f7babf110800000000000000
+      internalID: 1295817879799544411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 126
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eef35c783f48050800000000000000
+      internalID: 5802029984415477392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630ac88c8a87c0fc0800000000000000
+      internalID: -3527311741823442890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_154
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ac64c2e96c58bd0800000000000000
+      internalID: -2628476424850847212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661f5be3b3d93cda0800000000000000
+      internalID: -5925719806908698266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fed0adf148ca100800000000000000
+      internalID: 120616562369359713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 126
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f9090a4a97fdd0800000000000000
+      internalID: -2452321829310041881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 126
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bda8d0bebc073e0800000000000000
+      internalID: -2057920819303359683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 126
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745b7194526eb4640800000000000000
+      internalID: 5065395253722723655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 126
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4dc08dd141afa70800000000000000
+      internalID: 8861417335216198901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 94
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f609aecd8fbe15a0800000000000000
+      internalID: -6548586192371644686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_162
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 94
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99aee9dd43dccf0800000000000000
+      internalID: -230469879467435586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef3895e214c0dd40800000000000000
+      internalID: 5607197121516683244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 94
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79bc9bd7131248f0800000000000000
+      internalID: -557862410650863233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_165
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 94
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8c3b3fbd480b2a0800000000000000
+      internalID: -6723728163442800443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_166
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 94
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bcb6261136f9440800000000000000
+      internalID: 4944779842192919454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_167
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 94
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c3dcd68fa10f3b0800000000000000
+      internalID: -5480851092213515170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_168
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532a2ae4421ef7480800000000000000
+      internalID: -8899146792606457291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_169
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 94
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14783939780443f0800000000000000
+      internalID: -917599107332672481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_170
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 94
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74507c62ad7e04700800000000000000
+      internalID: 522672480914441543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_171
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 62
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443e0f00534632320800000000000000
+      internalID: 2531977594324181828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_172
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 62
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef38acbae22766f0800000000000000
+      internalID: -691545626195247127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_173
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27265de2260d69d80800000000000000
+      internalID: -8244172947744005518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_174
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 66
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22263801eb571dae0800000000000000
+      internalID: -1526309339520605662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_175
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 66
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fa4675e897ddd30800000000000000
+      internalID: 4457852858425192302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_176
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2a8939b3be4660800000000000000
+      internalID: 7372027248167759646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_177
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5640b0c343e12c660800000000000000
+      internalID: 7404513947045004389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_178
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 62
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7179bb186d98a3c10800000000000000
+      internalID: 2034089736103761687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_179
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 62
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a95285c530133600800000000000000
+      internalID: 446718611172776354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_180
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 62
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff2095bd51b891a0800000000000000
+      internalID: -6802492221106933774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_181
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 30
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff0b1dcacb4e6a50800000000000000
+      internalID: 6516229045248266233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_182
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa7334e6e445c980800000000000000
+      internalID: -8519327361639679320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_183
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee93567c973e7a0800000000000000
+      internalID: -6349097152358519108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_184
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8058bd2d9e4b883b0800000000000000
+      internalID: -5509955227729820408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_185
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4fe797d4dabff70800000000000000
+      internalID: 9222155210233672910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_186
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecba83960e945820800000000000000
+      internalID: 2906121410643148014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_187
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 30
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06d0ff36e128ed30800000000000000
+      internalID: 4460852703709419023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_188
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 30
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934494d6f31f21a10800000000000000
+      internalID: 1878829249285669945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_189
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 30
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dce6fa95257af30800000000000000
+      internalID: 4586725290648980763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_190
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 30
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eb77f8caa09ce60800000000000000
+      internalID: 7982923550748556898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_191
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b24981229e747740800000000000000
+      internalID: 5148879440084288176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_192
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72674f16062aa5ca0800000000000000
+      internalID: -6027326616438016473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_193
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32429fd5f57ae8560800000000000000
+      internalID: 7317970472563975203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_194
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb14e472b4771f0800000000000000
+      internalID: -1047285756151611792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_195
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffeb579bb714dd60800000000000000
+      internalID: 7913976539662512120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_196
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a426cb0c7dd0b1e0800000000000000
+      internalID: -2184002294431472475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_197
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f16b98fbb80d120800000000000000
+      internalID: 2436601053172866834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_198
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5749e6ac378a28a00800000000000000
+      internalID: 757352902622614645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_199
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f496431d4a2061a0800000000000000
+      internalID: -6818403325314689804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimes-removebg-preview_200
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60c0d2370ebc5750800000000000000
+      internalID: 6295115317283700846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimes-removebg-preview_0: -6555599992873420195
+      slimes-removebg-preview_1: -8973689612410143761
+      slimes-removebg-preview_10: 2902854471240382041
+      slimes-removebg-preview_100: 3798879067964106904
+      slimes-removebg-preview_101: 2295866557994793929
+      slimes-removebg-preview_102: -1301480151094769113
+      slimes-removebg-preview_103: 6579695852117670031
+      slimes-removebg-preview_104: -4159145349535975706
+      slimes-removebg-preview_105: -1184245483293511470
+      slimes-removebg-preview_106: -4747885402615766949
+      slimes-removebg-preview_107: -8197344611585272794
+      slimes-removebg-preview_108: 2624725669471219276
+      slimes-removebg-preview_109: 8681895977380762832
+      slimes-removebg-preview_11: -6273567530820643350
+      slimes-removebg-preview_110: 2768684365840116718
+      slimes-removebg-preview_111: 6345307303075234197
+      slimes-removebg-preview_112: 6742785869893096423
+      slimes-removebg-preview_113: 8068906820444391704
+      slimes-removebg-preview_114: -2600844989055163724
+      slimes-removebg-preview_115: -8759198036680845009
+      slimes-removebg-preview_116: 8855043627231970427
+      slimes-removebg-preview_117: 3755642696735870313
+      slimes-removebg-preview_118: 5563493132306937452
+      slimes-removebg-preview_119: -5053222613609516268
+      slimes-removebg-preview_12: -3466941654182291969
+      slimes-removebg-preview_120: -3176446101021267886
+      slimes-removebg-preview_121: -374111528539182655
+      slimes-removebg-preview_122: 7487947813157493387
+      slimes-removebg-preview_123: -628214300040506179
+      slimes-removebg-preview_124: 8882946998227506504
+      slimes-removebg-preview_125: -5481940662349286598
+      slimes-removebg-preview_126: 9092401087059223855
+      slimes-removebg-preview_127: -7544633051197584651
+      slimes-removebg-preview_128: 7381398077862896938
+      slimes-removebg-preview_129: 872036045612607314
+      slimes-removebg-preview_13: 5081902440552733734
+      slimes-removebg-preview_130: -6241608947549866484
+      slimes-removebg-preview_131: -6919865404676181812
+      slimes-removebg-preview_132: -6121778468943184573
+      slimes-removebg-preview_133: 3957797600334041401
+      slimes-removebg-preview_134: 1343665703377671352
+      slimes-removebg-preview_135: 1700287145274688338
+      slimes-removebg-preview_136: -9070031962280631614
+      slimes-removebg-preview_137: 6191481871348577251
+      slimes-removebg-preview_138: 3575135983369092099
+      slimes-removebg-preview_139: -5558393867388901825
+      slimes-removebg-preview_14: 5602369309234062080
+      slimes-removebg-preview_140: -1867552001000828374
+      slimes-removebg-preview_141: -2524151971842966416
+      slimes-removebg-preview_142: 4149293323896201650
+      slimes-removebg-preview_143: -3930203621936333279
+      slimes-removebg-preview_144: 5813366896156677218
+      slimes-removebg-preview_145: -4142450711254089598
+      slimes-removebg-preview_146: 6680686052842600947
+      slimes-removebg-preview_147: -764948095748267093
+      slimes-removebg-preview_148: 4949559562979769328
+      slimes-removebg-preview_149: -7688397231464644050
+      slimes-removebg-preview_15: 8095745783883047316
+      slimes-removebg-preview_150: 7916675148312291117
+      slimes-removebg-preview_151: 1295817879799544411
+      slimes-removebg-preview_152: 5802029984415477392
+      slimes-removebg-preview_153: -3527311741823442890
+      slimes-removebg-preview_154: -2628476424850847212
+      slimes-removebg-preview_155: -5925719806908698266
+      slimes-removebg-preview_156: 120616562369359713
+      slimes-removebg-preview_157: -2452321829310041881
+      slimes-removebg-preview_158: -2057920819303359683
+      slimes-removebg-preview_159: 5065395253722723655
+      slimes-removebg-preview_16: 5106836362268861740
+      slimes-removebg-preview_160: 8861417335216198901
+      slimes-removebg-preview_161: -6548586192371644686
+      slimes-removebg-preview_162: -230469879467435586
+      slimes-removebg-preview_163: 5607197121516683244
+      slimes-removebg-preview_164: -557862410650863233
+      slimes-removebg-preview_165: -6723728163442800443
+      slimes-removebg-preview_166: 4944779842192919454
+      slimes-removebg-preview_167: -5480851092213515170
+      slimes-removebg-preview_168: -8899146792606457291
+      slimes-removebg-preview_169: -917599107332672481
+      slimes-removebg-preview_17: 8620816483846112101
+      slimes-removebg-preview_170: 522672480914441543
+      slimes-removebg-preview_171: 2531977594324181828
+      slimes-removebg-preview_172: -691545626195247127
+      slimes-removebg-preview_173: -8244172947744005518
+      slimes-removebg-preview_174: -1526309339520605662
+      slimes-removebg-preview_175: 4457852858425192302
+      slimes-removebg-preview_176: 7372027248167759646
+      slimes-removebg-preview_177: 7404513947045004389
+      slimes-removebg-preview_178: 2034089736103761687
+      slimes-removebg-preview_179: 446718611172776354
+      slimes-removebg-preview_18: -82959908265529066
+      slimes-removebg-preview_180: -6802492221106933774
+      slimes-removebg-preview_181: 6516229045248266233
+      slimes-removebg-preview_182: -8519327361639679320
+      slimes-removebg-preview_183: -6349097152358519108
+      slimes-removebg-preview_184: -5509955227729820408
+      slimes-removebg-preview_185: 9222155210233672910
+      slimes-removebg-preview_186: 2906121410643148014
+      slimes-removebg-preview_187: 4460852703709419023
+      slimes-removebg-preview_188: 1878829249285669945
+      slimes-removebg-preview_189: 4586725290648980763
+      slimes-removebg-preview_19: -561331885159628708
+      slimes-removebg-preview_190: 7982923550748556898
+      slimes-removebg-preview_191: 5148879440084288176
+      slimes-removebg-preview_192: -6027326616438016473
+      slimes-removebg-preview_193: 7317970472563975203
+      slimes-removebg-preview_194: -1047285756151611792
+      slimes-removebg-preview_195: 7913976539662512120
+      slimes-removebg-preview_196: -2184002294431472475
+      slimes-removebg-preview_197: 2436601053172866834
+      slimes-removebg-preview_198: 757352902622614645
+      slimes-removebg-preview_199: -6818403325314689804
+      slimes-removebg-preview_2: 8962421604505411424
+      slimes-removebg-preview_20: -8012543057966136474
+      slimes-removebg-preview_200: 6295115317283700846
+      slimes-removebg-preview_21: 1852080887832285625
+      slimes-removebg-preview_22: 3714597109099649414
+      slimes-removebg-preview_23: 5549261433609320850
+      slimes-removebg-preview_24: 8049444683168358986
+      slimes-removebg-preview_25: 8501031927249095470
+      slimes-removebg-preview_26: -1100655262121260284
+      slimes-removebg-preview_27: -6098105493309145062
+      slimes-removebg-preview_28: 8101529853442605802
+      slimes-removebg-preview_29: -311305059773502882
+      slimes-removebg-preview_3: 7592754726607697821
+      slimes-removebg-preview_30: 4417312305289927318
+      slimes-removebg-preview_31: -8300963189520196172
+      slimes-removebg-preview_32: -61908846514367183
+      slimes-removebg-preview_33: -6371789338514526291
+      slimes-removebg-preview_34: 1787105706419384723
+      slimes-removebg-preview_35: 3852040244395052508
+      slimes-removebg-preview_36: -4639045807124385715
+      slimes-removebg-preview_37: -6883536434375059737
+      slimes-removebg-preview_38: -1871878567380537810
+      slimes-removebg-preview_39: 5216150752109086149
+      slimes-removebg-preview_4: -3888705249000524126
+      slimes-removebg-preview_40: 6901294143460616449
+      slimes-removebg-preview_41: 5986474693380172072
+      slimes-removebg-preview_42: -351095154890332109
+      slimes-removebg-preview_43: 605173670922357286
+      slimes-removebg-preview_44: 6992241845034372280
+      slimes-removebg-preview_45: 2206317541669298128
+      slimes-removebg-preview_46: 629278771686688551
+      slimes-removebg-preview_47: -8894449712447934427
+      slimes-removebg-preview_48: -1832388975438883841
+      slimes-removebg-preview_49: -4846784277052140595
+      slimes-removebg-preview_5: 1102868249182779833
+      slimes-removebg-preview_50: 7915432231756449743
+      slimes-removebg-preview_51: 3319934745670559871
+      slimes-removebg-preview_52: 7139869141715201022
+      slimes-removebg-preview_53: -3246439560853524994
+      slimes-removebg-preview_54: 8283449388866991178
+      slimes-removebg-preview_55: 6837816004425172961
+      slimes-removebg-preview_56: 6244464366692881032
+      slimes-removebg-preview_57: 6678364196054709658
+      slimes-removebg-preview_58: -4078233717665210436
+      slimes-removebg-preview_59: -7240695013029500439
+      slimes-removebg-preview_6: -1732352063775186823
+      slimes-removebg-preview_60: 4542522183157321085
+      slimes-removebg-preview_61: -1200663757320998573
+      slimes-removebg-preview_62: 677982144114362288
+      slimes-removebg-preview_63: -9201095789592293747
+      slimes-removebg-preview_64: 2937763266895291227
+      slimes-removebg-preview_65: 8455031089418851375
+      slimes-removebg-preview_66: 7473303597881140914
+      slimes-removebg-preview_67: 7772342702061830651
+      slimes-removebg-preview_68: 7104701094605410590
+      slimes-removebg-preview_69: 629472844976014317
+      slimes-removebg-preview_7: -6598180896205354490
+      slimes-removebg-preview_70: -7721739540078948125
+      slimes-removebg-preview_71: 5397038091587591888
+      slimes-removebg-preview_72: 7521767617901249099
+      slimes-removebg-preview_73: 6858452069022191462
+      slimes-removebg-preview_74: -7899880746981013926
+      slimes-removebg-preview_75: -4804905000505160876
+      slimes-removebg-preview_76: 6293577286298322267
+      slimes-removebg-preview_77: -3497568955760950572
+      slimes-removebg-preview_78: 7955057836850779490
+      slimes-removebg-preview_79: -2665873374423990610
+      slimes-removebg-preview_8: 3305326980375339801
+      slimes-removebg-preview_80: 2750116233174556275
+      slimes-removebg-preview_81: 3109956720395065296
+      slimes-removebg-preview_82: 2105599380306874456
+      slimes-removebg-preview_83: 6785981249602524893
+      slimes-removebg-preview_84: 5042120975750693781
+      slimes-removebg-preview_85: -5281812450054066207
+      slimes-removebg-preview_86: -717295528435566238
+      slimes-removebg-preview_87: 7865098488314101165
+      slimes-removebg-preview_88: 2567155580926253081
+      slimes-removebg-preview_89: -7990531118635282346
+      slimes-removebg-preview_9: 3404732961292521558
+      slimes-removebg-preview_90: -8182074391254470709
+      slimes-removebg-preview_91: 8614965869042012715
+      slimes-removebg-preview_92: 2779135929364024946
+      slimes-removebg-preview_93: 3578457842459472717
+      slimes-removebg-preview_94: -3602401720990197575
+      slimes-removebg-preview_95: -7902592485772828379
+      slimes-removebg-preview_96: 9034733720574255823
+      slimes-removebg-preview_97: -8316186964360001485
+      slimes-removebg-preview_98: 2222489938108064437
+      slimes-removebg-preview_99: -8804374982354368687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
