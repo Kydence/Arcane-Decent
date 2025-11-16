@@ -522,8 +522,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2080501635}
-  disY: 0
-  disX: 0
+  normalOrthoSize: 5
+  bossTopLeft: {fileID: 0}
+  bossBottomRight: {fileID: 0}
 --- !u!114 &60116957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4161,7 +4162,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2485074787875486423, guid: ec55e84e406b98a4ea115873b78fb226, type: 3}
       propertyPath: levelname
-      value: Level5
+      value: Level3
       objectReference: {fileID: 0}
     - target: {fileID: 2485074787875486423, guid: ec55e84e406b98a4ea115873b78fb226, type: 3}
       propertyPath: portalSound
@@ -13181,6 +13182,10 @@ PrefabInstance:
     - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Name
       value: Updated UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Pivot.x

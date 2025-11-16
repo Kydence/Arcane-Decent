@@ -42,6 +42,12 @@ public class MagicArrowProjectile : MonoBehaviour
             return;
         }
 
+        // Ignore BossRoomTrigger
+        if (collision.GetComponent<BossRoomTrigger>())
+        {
+            return;
+        }
+
         // Actually hits
         hit = true;
         boxCollider.enabled = false;
