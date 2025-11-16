@@ -39,9 +39,6 @@ public class FireballProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        hit = true;
-        boxCollider.enabled = false;
-
         // Play explosion animation if exists
         /*
         if (animator != null)
@@ -54,7 +51,32 @@ public class FireballProjectile : MonoBehaviour
         Invoke(nameof(Deactivate), explosionDuration);
         */
 
+        // Ignore Player
+        if (collision.CompareTag("Player"))
+        {
+            return;
+        }
+
+        // Ignore the FarSoundZone trigger
+        if (collision.GetComponent<FarSoundZone>())
+        {
+            return;
+        }
+
+        // Ignore BossRoomTrigger
+        if (collision.GetComponent<BossRoomTrigger>())
+        {
+            return;
+        }
+
+        // Actually hits
+        hit = true;
+        boxCollider.enabled = false;
         gameObject.SetActive(false);
+        if(collision.tag == "Enemy")
+        {
+            collision.GetComponent<Health>().TakeDamage(1);
+        }
     }
 
     public void SetDirection(float _direction)
