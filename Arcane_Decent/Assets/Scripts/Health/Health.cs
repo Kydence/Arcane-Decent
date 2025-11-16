@@ -58,9 +58,10 @@ public class Health : MonoBehaviour
             //player dead
             if (!dead)
             {
+                anim.SetTrigger("die");
                 if (GetComponent<PlayerMovement>() != null)
                 {
-                    anim.SetTrigger("die");
+                    
                     CloseSoundManager.instance.PlaySound(deathSound);
                     GetComponent<PlayerMovement>().enabled = false;
                     if(bspawn != null){
@@ -77,9 +78,11 @@ public class Health : MonoBehaviour
                 //Enemy
                 if (GetComponentInParent<Enemypatrol>() != null)
                 {
-
+                    
                     GetComponentInParent<Enemypatrol>().enabled = false;
-                      Destroy(gameObject);
+                    //anim.SetTrigger("die");
+                    anim.Play("die");
+                      //Destroy(gameObject);
                 }
 
                 if (GetComponentInParent<MeleeEnemy>() != null)
@@ -89,6 +92,7 @@ public class Health : MonoBehaviour
                 }
                 if(GetComponent<RangedEnemy>() != null)
                 {
+                    
                     GetComponent<RangedEnemy>().enabled = false;
                   
                 }

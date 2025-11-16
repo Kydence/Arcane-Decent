@@ -35,9 +35,10 @@ public class RangedEnemy : MonoBehaviour
         {
             if (cooldownTimer >= attackCoolDown)
             {
-                
-                cooldownTimer = 0;
+                print("shhot");
                 anim.SetTrigger("Ranged");
+                cooldownTimer = 0;
+                
 
                 //attack
                 //RangedAttack();
@@ -45,7 +46,9 @@ public class RangedEnemy : MonoBehaviour
         }
         if (enemypatrol != null)
         {
+
             enemypatrol.enabled = !PlayerInsight();
+            anim.SetBool("isWalk",false);
         }
     }
 
