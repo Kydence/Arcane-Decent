@@ -22,6 +22,7 @@ public class BossPatrol : MonoBehaviour
 
     [Header("boss specific stuff")]
    [SerializeField] private Transform player;
+ 
 
     private void Awake()
     {
@@ -31,26 +32,42 @@ public class BossPatrol : MonoBehaviour
 
     void Update()
     {
+        
+        
+        movingLeft = player.position.x < enemy.position.x;
         if (movingLeft)
         {
-            if ( enemy.position.x>= player.position.x)
-                MoveInDirection(-1);
+            if(enemy.position.x-8<= player.position.x)
+            {
+                anim.SetBool("isWalk",false);
+            }
+            else if ( enemy.position.x> player.position.x)
+            {
+                 MoveInDirection(-1);
+            }  
             else
             {
-                //change direciton
-                DirectionChange();
+              DirectionChange();
             }
+         
         }
-        else
+        else if(!movingLeft)
         {
-            if (enemy.position.x<= player.position.x)
-                MoveInDirection(1);
+             if(enemy.position.x+8>= player.position.x)
+            {
+                anim.SetBool("isWalk",false);
+            }
+            else if (enemy.position.x< player.position.x)
+            {
+               MoveInDirection(1);  
+            }
             else
             {
-                //change direction
                 DirectionChange();
             }
-        }   
+      
+        } 
+        
     }
 
     private void DirectionChange()
@@ -73,7 +90,8 @@ public class BossPatrol : MonoBehaviour
         //Move in that direciton
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed, enemy.position.y, enemy.position.z);
     }
-
  
+
+
 
 }
