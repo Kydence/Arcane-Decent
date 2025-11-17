@@ -3946,6 +3946,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1896964012583506287, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
   m_PrefabInstance: {fileID: 1959145248622426511}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &2059936237 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3378201348233544352, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
+  m_PrefabInstance: {fileID: 1959145248622426511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2065749224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4307,13 +4312,17 @@ PrefabInstance:
       propertyPath: playerLayer.m_Bits
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8722347581499698346, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6800835757433204106}
+    - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6800835757433204107}
   m_SourcePrefab: {fileID: 100100000, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
 --- !u!4 &2519443912454123780
 Transform:
@@ -4386,6 +4395,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6800835757433204107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837787923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415703f0fd95d1b439fcfa1c05152c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCoolDown: 1
+  colliderDistance: 0.25
+  range: 1
+  damage: 2
+  boxCollider: {fileID: 2059936237}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  random: 0
+  SpecialCoolDown: 10
 --- !u!1 &7982938718544793816
 GameObject:
   m_ObjectHideFlags: 0

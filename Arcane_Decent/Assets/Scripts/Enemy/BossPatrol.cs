@@ -9,7 +9,7 @@ public class BossPatrol : MonoBehaviour
 
     [Header("Enemy")]
 
-    [SerializeField] private Transform enemy;
+    [SerializeField] public Transform enemy;
 
     [Header("movement parameters")]
     [SerializeField] private float speed;
@@ -21,7 +21,8 @@ public class BossPatrol : MonoBehaviour
    [SerializeField] private Animator anim;
 
     [Header("boss specific stuff")]
-   [SerializeField] private Transform player;
+   [SerializeField] public Transform player;
+   private int ran;
  
 
     private void Awake()
