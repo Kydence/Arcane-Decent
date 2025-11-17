@@ -31,6 +31,7 @@ public class MeleeEnemy : MonoBehaviour
             
             if (cooldownTimer >= attackCoolDown) //&& playerHealth.currentHealth > 0)
             {
+                anim.SetBool("isWalk",false);
                  anim.SetTrigger("attack");
                 cooldownTimer = 0;
                
@@ -41,6 +42,7 @@ public class MeleeEnemy : MonoBehaviour
        if (enemypatrol != null)
         {
             enemypatrol.enabled = !PlayerInsight();
+            
         }
     }
 
