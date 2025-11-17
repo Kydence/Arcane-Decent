@@ -2513,6 +2513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1218525262}
   normalOrthoSize: 5
+  disY: 0
   bossTopLeft: {fileID: 0}
   bossBottomRight: {fileID: 0}
 --- !u!114 &597150779
@@ -4791,11 +4792,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.64
+      value: -6.992
       objectReference: {fileID: 0}
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.75
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8446,7 +8447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Pivot.x
