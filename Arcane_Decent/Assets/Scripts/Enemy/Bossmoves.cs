@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bossmoves : MonoBehaviour
@@ -18,7 +19,10 @@ public class Bossmoves : MonoBehaviour
     private Transform player;
     private Transform enemy;
     private bool special = false;
-    private bool damn = false;
+    
+    
+    private bool upbox;
+    
 
     //NEED TO HAVE ANIMATION EVENT TO MAKE SURE MELEE ENEMY DOESN'T ATTACK WHEN PLAYER IS IN THE 
     //ENEMY HIT BOX AND SO THE PLAYER IS ABLE TO DODGE THE ATTACK
@@ -27,14 +31,17 @@ public class Bossmoves : MonoBehaviour
         enemypatrol = GetComponentInParent<BossPatrol>();
         player = GetComponentInParent<BossPatrol>().player;
         enemy= GetComponentInParent<BossPatrol>().enemy;
+        
          anim = GetComponent<Animator>();
          SpecialdownTimer = 0;
     }
 
     private void Update()
     {
+        upbox = GetComponentInChildren<Special1Collision>().gothim;
         cooldownTimer += Time.deltaTime;
         SpecialdownTimer+= Time.deltaTime;
+        
         //attack only when player in sight
         random = Random.Range(1,20);
         print(random);
@@ -45,14 +52,17 @@ public class Bossmoves : MonoBehaviour
               anim.SetTrigger("Special1");
               cooldownTimer =0;
               SpecialdownTimer=0;
+            
+              
         }
         else{
-           
+        
         if (PlayerInsight())
         {
             
             if (cooldownTimer >= attackCoolDown) //&& playerHealth.currentHealth > 0)
             {
+               
                 print("attack");
                 anim.SetBool("isWalk",false);
                  anim.SetTrigger("attack");
@@ -72,6 +82,7 @@ public class Bossmoves : MonoBehaviour
 
     private bool PlayerInsight()
     {
+         
         RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
         new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z), 0, Vector2.left, 0, playerLayer);
         
@@ -91,6 +102,7 @@ public class Bossmoves : MonoBehaviour
 
     private void DamagePlayer()
     {
+       
         //if the player is in the hit box they take damage
         if (PlayerInsight())
         {
@@ -100,20 +112,14 @@ public class Bossmoves : MonoBehaviour
     }
     private void SpecialDamge()
     {
-        if(damn){
+        if(upbox){
+         playerHealth = player.GetComponent<Health>();
          playerHealth.TakeDamage(damage);
         }
-        damn = false;
+       
+        
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "Player" && special)
-        {
-            damn = true;
-           
-        }
-        special = false;
-    }
+    
 
 }
