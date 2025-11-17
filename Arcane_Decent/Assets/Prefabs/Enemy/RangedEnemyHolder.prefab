@@ -219,7 +219,7 @@ MonoBehaviour:
   numberofFlashes: 0
   dead: 0
   deathSound: {fileID: 0}
-  hurtSound: {fileID: 0}
+  hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
   deathscreen: {fileID: 0}
   Juice: {fileID: 0}
   bspawn: {fileID: 0}

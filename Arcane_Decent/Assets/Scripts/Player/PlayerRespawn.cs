@@ -5,7 +5,6 @@ public class PlayerRespawn : MonoBehaviour
 {
     public AudioClip checkpointSound; // sound played when picking up new checkpoint
     Transform currentCheckpoint; // store last checkpoint here
-    [SerializeField] private Transform defaultSpawn;
 
     private Health playerHealth;
     [SerializeField] private Button bspawn;
@@ -30,17 +29,12 @@ public class PlayerRespawn : MonoBehaviour
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.position; // move player to checkpoint position
-              
-        }
-        else if (defaultSpawn != null)
-        {
-            transform.position = defaultSpawn.position; // move player to default spawn position
-             
-        }
             playerHealth.Respawn();
+            return;
+        }
         
-        
-       
+        // No checkpoint -> fully restart scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
 
