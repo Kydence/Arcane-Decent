@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
     [Header("Follow")]
     public Transform player;
     public float normalOrthoSize = 5f;
-    [SerializeField] private float disY;
+    //[SerializeField] private float disY;
     //[SerializeField] private float disX;
 
     [Header("Boss Room")]
@@ -49,7 +49,7 @@ public class CameraController : MonoBehaviour
         else
         {
             // Normal follow
-            transform.position = new Vector3(player.position.x, player.position.y+disY, transform.position.z);
+            transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
         }
     }
 

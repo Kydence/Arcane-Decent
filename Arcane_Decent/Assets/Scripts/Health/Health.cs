@@ -96,10 +96,6 @@ public class Health : MonoBehaviour
                     GetComponent<RangedEnemy>().enabled = false;
                   
                 }
-                if(GetComponent<Bossmoves>()!= null)
-                {
-                    GetComponent<Bossmoves>().enabled = false;
-                }
                 dead = true;
             }
         }
