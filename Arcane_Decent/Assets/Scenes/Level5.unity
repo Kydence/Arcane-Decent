@@ -4398,11 +4398,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: iFramesDuration
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: numberofFlashes
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8722347581499698346, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: range
@@ -4430,6 +4430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6800835757433204107}
+    - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6800835757433204108}
   m_SourcePrefab: {fileID: 100100000, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
 --- !u!4 &2519443912454123780
 Transform:
@@ -4524,6 +4527,19 @@ MonoBehaviour:
     m_Bits: 8
   random: 0
   SpecialCoolDown: 5
+--- !u!114 &6800835757433204108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837787923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4aedaea6d44624fa34084146575d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &7982938718544793816
 GameObject:
   m_ObjectHideFlags: 0

@@ -523,6 +523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2080501635}
   normalOrthoSize: 5
+  disY: 0
   bossTopLeft: {fileID: 0}
   bossBottomRight: {fileID: 0}
 --- !u!114 &60116957

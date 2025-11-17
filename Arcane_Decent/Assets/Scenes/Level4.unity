@@ -2673,7 +2673,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2519443913243827387, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.82
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2681,7 +2681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0989285
+      value: 1.067
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2719,6 +2719,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingMeleeEnemy Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8514674117436774500, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2732,6 +2744,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1678492469}
     m_Modifications:
+    - target: {fileID: 2519443913243827387, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4025013
@@ -2775,6 +2791,14 @@ PrefabInstance:
     - target: {fileID: 8110633576269153741, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_Name
       value: MovingMeleeEnemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3973,7 +3997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.59
+      value: 2.546
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4010,6 +4034,14 @@ PrefabInstance:
     - target: {fileID: 8110633576269153741, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_Name
       value: MovingMeleeEnemy Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4119,7 +4151,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2519443913243827387, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.48
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4127,7 +4159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8941019
+      value: 3.861
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4167,7 +4199,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8514674117436774500, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.57
+      value: 6.657
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4666,13 +4706,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1678492469}
     m_Modifications:
+    - target: {fileID: 2519443913243827387, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.461273
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.241346
+      value: 8.185
       objectReference: {fileID: 0}
     - target: {fileID: 5174286966093715854, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4709,6 +4753,14 @@ PrefabInstance:
     - target: {fileID: 8110633576269153741, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_Name
       value: MovingMeleeEnemy Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5997,6 +6049,14 @@ PrefabInstance:
     - target: {fileID: 8110633576269153741, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
       propertyPath: m_Name
       value: MovingMeleeEnemy Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590913805787541166, guid: 6c56e4f4a4a414f4da1f1302a484ac8f, type: 3}
+      propertyPath: numberofFlashes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
