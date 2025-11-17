@@ -1086,7 +1086,7 @@ PrefabInstance:
     - target: {fileID: 2016743415317604534, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: basicAttackSound
       value: 
-      objectReference: {fileID: 8300000, guid: 9763ad0b2675447458565eea25bb9671, type: 3}
+      objectReference: {fileID: 8300000, guid: fd35286284dcca94c98bb6382238dcdd, type: 3}
     - target: {fileID: 2016743415317604534, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: 'arrows.Array.data[0]'
       value: 
@@ -13786,7 +13786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5467462253506063371, guid: 2d388b8909764e74593877f035726dfc, type: 3}
       propertyPath: m_FlipX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
