@@ -4397,6 +4397,10 @@ PrefabInstance:
       value: BossEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
+      propertyPath: startingHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: iFramesDuration
       value: 0
       objectReference: {fileID: 0}
