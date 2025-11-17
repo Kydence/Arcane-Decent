@@ -9,6 +9,7 @@ public class Bossmoves : MonoBehaviour
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
+    private float SpecialdownTimer;
     private Health playerHealth;
     private BossPatrol enemypatrol;
     private Animator anim;
@@ -16,6 +17,8 @@ public class Bossmoves : MonoBehaviour
     [SerializeField] private float SpecialCoolDown;
     private Transform player;
     private Transform enemy;
+    private bool special = false;
+    private bool damn = false;
 
     //NEED TO HAVE ANIMATION EVENT TO MAKE SURE MELEE ENEMY DOESN'T ATTACK WHEN PLAYER IS IN THE 
     //ENEMY HIT BOX AND SO THE PLAYER IS ABLE TO DODGE THE ATTACK
@@ -25,20 +28,26 @@ public class Bossmoves : MonoBehaviour
         player = GetComponentInParent<BossPatrol>().player;
         enemy= GetComponentInParent<BossPatrol>().enemy;
          anim = GetComponent<Animator>();
+         SpecialdownTimer = 0;
     }
 
     private void Update()
     {
         cooldownTimer += Time.deltaTime;
+        SpecialdownTimer+= Time.deltaTime;
         //attack only when player in sight
         random = Random.Range(1,20);
         print(random);
-        if(random == 1 && cooldownTimer>= SpecialCoolDown)
+        if(random == 1 && SpecialdownTimer>= SpecialCoolDown)
         {
               enemy.position = new Vector3(player.position.x, enemy.position.y, enemy.position.z);
+              special = true;
+              anim.SetTrigger("Special1");
               cooldownTimer =0;
+              SpecialdownTimer=0;
         }
         else{
+           
         if (PlayerInsight())
         {
             
@@ -89,5 +98,22 @@ public class Bossmoves : MonoBehaviour
             //damge player health
         }
     }
-   
+    private void SpecialDamge()
+    {
+        if(damn){
+         playerHealth.TakeDamage(damage);
+        }
+        damn = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player" && special)
+        {
+            damn = true;
+           
+        }
+        special = false;
+    }
+
 }
