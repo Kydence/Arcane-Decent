@@ -881,6 +881,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8551351352357638101, guid: 2d388b8909764e74593877f035726dfc, type: 3}
+      propertyPath: hurtSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
     - target: {fileID: 8651920701113960318, guid: 2d388b8909764e74593877f035726dfc, type: 3}
       propertyPath: m_IsActive
       value: 0
