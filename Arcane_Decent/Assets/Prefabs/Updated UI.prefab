@@ -241,10 +241,10 @@ RectTransform:
   - {fileID: 3542220778020320802}
   m_Father: {fileID: 5490416335428092973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: -2078, y: -852}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5133991666558930690
 GameObject:
@@ -870,6 +870,18 @@ PrefabInstance:
     - target: {fileID: 4564070086306105827, guid: d576693c54f65574e90927f95e10e543, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564070086306105827, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564070086306105827, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564070086306105827, guid: d576693c54f65574e90927f95e10e543, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 7682046232604617111, guid: d576693c54f65574e90927f95e10e543, type: 3}
       propertyPath: m_Pivot.x

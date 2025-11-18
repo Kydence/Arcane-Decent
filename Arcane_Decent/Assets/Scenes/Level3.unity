@@ -10634,6 +10634,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1872135451883873369, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872135451883873369, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872135451883873369, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 2398879728118591283, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: playerMana
       value: 
