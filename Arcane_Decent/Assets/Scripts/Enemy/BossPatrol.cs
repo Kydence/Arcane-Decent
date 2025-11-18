@@ -34,7 +34,7 @@ public class BossPatrol : MonoBehaviour
     void Update()
     {
         
-        
+        if(enemy != null){
         movingLeft = player.position.x < enemy.position.x;
         if (movingLeft)
         {
@@ -68,6 +68,7 @@ public class BossPatrol : MonoBehaviour
             }
       
         } 
+        }
         
     }
 

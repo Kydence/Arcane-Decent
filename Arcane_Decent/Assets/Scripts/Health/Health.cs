@@ -80,9 +80,7 @@ public class Health : MonoBehaviour
                 if (GetComponentInParent<Enemypatrol>() != null)
                 {
                     GetComponentInParent<Enemypatrol>().enabled = false;
-                    //anim.SetTrigger("die");
-                    //anim.Play("die");
-                    //Destroy(gameObject);
+                    
                 }
 
                 if (GetComponentInParent<MeleeEnemy>() != null)
