@@ -28,6 +28,7 @@ public class PauseMenu : MonoBehaviour
     {
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
+        AudioListener.volume = 0.2f;
         isPaused = true;
     }
 
@@ -35,12 +36,14 @@ public class PauseMenu : MonoBehaviour
     {
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        AudioListener.volume = 1f;
         isPaused = false;
     }
 
     public void LoadMenu()
     {
         Time.timeScale = 1f;
+        AudioListener.volume = 1f;
         SceneManager.LoadScene("_MainMenu");
     }
 }
