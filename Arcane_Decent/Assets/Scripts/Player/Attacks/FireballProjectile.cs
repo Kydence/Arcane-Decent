@@ -75,7 +75,7 @@ public class FireballProjectile : MonoBehaviour
         gameObject.SetActive(false);
         if(collision.tag == "Enemy")
         {
-            collision.GetComponent<Health>().TakeDamage(1);
+            collision.GetComponent<Health>().TakeDamage(6);
         }
     }
 

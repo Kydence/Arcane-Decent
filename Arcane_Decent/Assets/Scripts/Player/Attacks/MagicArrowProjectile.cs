@@ -54,7 +54,7 @@ public class MagicArrowProjectile : MonoBehaviour
         Deactive();
         if(collision.tag == "Enemy")
         {
-            collision.GetComponent<Health>().TakeDamage(1);
+            collision.GetComponent<Health>().TakeDamage(2);
         }
     }
     public void SetDirection(float _ditection)
