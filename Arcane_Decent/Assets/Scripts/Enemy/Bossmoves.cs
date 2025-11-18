@@ -118,7 +118,10 @@ public class Bossmoves : MonoBehaviour
        
         
     }
-
+    private void KILL()
+    {
+        Destroy(gameObject);
+    }
     
 
 }
