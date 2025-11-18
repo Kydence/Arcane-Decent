@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
     [SerializeField] private AudioClip enemyDeathSound;
+    [SerializeField] private GameObject black;
     [SerializeField] private GameObject deathscreen;
     [SerializeField] private GameObject Juice;
     [SerializeField] private GameObject bspawn;
@@ -30,11 +31,12 @@ public class Health : MonoBehaviour
         spriteRend = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         if(bspawn != null){
-        deathscreen.SetActive(false);
-        spawnbutton = bspawn.GetComponent<Button>();
-        //spawnbutton.onClick.AddListener(Respawn);
-        bspawn.SetActive(false);
-        bquit.SetActive(false);
+            black.SetActive(false);
+            deathscreen.SetActive(false);
+            spawnbutton = bspawn.GetComponent<Button>();
+            //spawnbutton.onClick.AddListener(Respawn);
+            bspawn.SetActive(false);
+            bquit.SetActive(false);
         }
        
 
@@ -65,8 +67,8 @@ public class Health : MonoBehaviour
                     GetComponent<PlayerMovement>().enabled = false;
                     if(bspawn != null){
                     Juice.SetActive(false);
+                    black.SetActive(true);
                     deathscreen.SetActive(true);
-                    
                     bspawn.SetActive(true);
                     bquit.SetActive(true);
                     
@@ -134,13 +136,12 @@ public class Health : MonoBehaviour
         anim.ResetTrigger("die");
         anim.Play("Idle");
         if(bspawn != null){
-        deathscreen.SetActive(false);
-        Juice.SetActive(true);
-        
-        bspawn.SetActive(false);
-        bquit.SetActive(false);
-
-        GetComponent<PlayerMovement>().enabled = true;
+            black.SetActive(false);
+            deathscreen.SetActive(false);
+            Juice.SetActive(true);
+            bspawn.SetActive(false);
+            bquit.SetActive(false);
+            GetComponent<PlayerMovement>().enabled = true;
         }
     }
 }
