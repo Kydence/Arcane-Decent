@@ -1,7 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.InputSystem.Controls;
-using UnityEngine.Windows.Speech;
 
 public class MagicArrowProjectile : MonoBehaviour
 {
