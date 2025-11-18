@@ -64,7 +64,7 @@ public class Mana : MonoBehaviour
             FB_cooldown = 0;
         }
         //restores mana
-        else if (ManaTimer >= 2)
+        else if (ManaTimer >= 1)
         {
             restoreMana(1);
             ManaTimer = 0;
