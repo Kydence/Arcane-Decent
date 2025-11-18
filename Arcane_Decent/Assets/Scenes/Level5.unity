@@ -1400,6 +1400,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1109735204187657621, guid: 4cb10d0897b7e38478abe520bcc77ba7, type: 3}
   m_PrefabInstance: {fileID: 507499518}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &507507556 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5521540556136337178, guid: ba796d79d3ed56b448b7ce17f811d4b6, type: 3}
+  m_PrefabInstance: {fileID: 951689944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &558551347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1594,6 +1599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraController: {fileID: 270112780}
+  bossMusic: {fileID: 507507556}
 --- !u!1001 &707846231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1960,6 +1966,10 @@ PrefabInstance:
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: d9d2e5b3fe64d684db7b8f921bb3cc2b, type: 3}
+    - target: {fileID: 5521540556136337178, guid: ba796d79d3ed56b448b7ce17f811d4b6, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7008020878111293741, guid: ba796d79d3ed56b448b7ce17f811d4b6, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 0
@@ -4339,7 +4349,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1f85767bad2a1a347b12b3b4a094662a, type: 3}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: startingHealth
-      value: 30
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: iFramesDuration
@@ -4375,9 +4385,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6800835757433204107}
-    - targetCorrespondingSourceObject: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6800835757433204108}
   m_SourcePrefab: {fileID: 100100000, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
 --- !u!4 &2519443912454123780
 Transform:
@@ -4472,19 +4479,6 @@ MonoBehaviour:
     m_Bits: 8
   random: 0
   SpecialCoolDown: 5
---- !u!114 &6800835757433204108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837787923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a4aedaea6d44624fa34084146575d45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!1 &7982938718544793816
 GameObject:
   m_ObjectHideFlags: 0
