@@ -4,6 +4,8 @@ public class BossRoomTrigger : MonoBehaviour
     public CameraController cameraController;
     public AudioSource bossMusic;
     public GameObject bosshealth;
+    public GameObject boss;
+    public int init = 0;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -12,8 +14,10 @@ public class BossRoomTrigger : MonoBehaviour
 
             if (bossMusic != null)
             {
+                init = 1;
                 bossMusic.Play();
                 bosshealth.SetActive(true);
+                boss.SetActive(true);
             }
         }
     }

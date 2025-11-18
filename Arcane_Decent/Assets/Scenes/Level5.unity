@@ -1757,6 +1757,8 @@ MonoBehaviour:
   cameraController: {fileID: 270112780}
   bossMusic: {fileID: 507507556}
   bosshealth: {fileID: 1913485849}
+  boss: {fileID: 8110633577090328690}
+  init: 0
 --- !u!1001 &707846231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2301,6 +2303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boss: {fileID: 2059936235}
+  init: {fileID: 703021019}
 --- !u!1 &1029868696
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,6 +4643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4921262135344254936, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7784831152468900510, guid: c2f87bb09c180c44889bb4a9855e9542, type: 3}
       propertyPath: deathSound
       value: 
@@ -4707,7 +4714,7 @@ Transform:
   m_GameObject: {fileID: 8110633577090328690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.07, y: -96.31, z: 0.10406552}
+  m_LocalPosition: {x: 30.07, y: -96.51, z: 0.10406552}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
