@@ -11,6 +11,8 @@ TagManager:
   - FireBall
   - Lightning
   - NO
+  - Checkpoint
+  - Flyingground
   layers:
   - Default
   - TransparentFX
