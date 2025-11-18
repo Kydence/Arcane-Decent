@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
     public bool dead;
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip enemyDeathSound;
     [SerializeField] private GameObject deathscreen;
     [SerializeField] private GameObject Juice;
     [SerializeField] private GameObject bspawn;
@@ -78,27 +79,29 @@ public class Health : MonoBehaviour
                 //Enemy
                 if (GetComponentInParent<Enemypatrol>() != null)
                 {
-                    
                     GetComponentInParent<Enemypatrol>().enabled = false;
                     //anim.SetTrigger("die");
-                    anim.Play("die");
-                      //Destroy(gameObject);
+                    //anim.Play("die");
+                    //Destroy(gameObject);
                 }
 
                 if (GetComponentInParent<MeleeEnemy>() != null)
                 {
-                    
                     GetComponent<MeleeEnemy>().enabled = false;
                 }
                 if(GetComponent<RangedEnemy>() != null)
                 {
-                    
                     GetComponent<RangedEnemy>().enabled = false;
                   
                 }
                 if(GetComponent<Bossmoves>()!= null)
                 {
                     GetComponent<Bossmoves>().enabled = false;
+                }
+                
+                if(enemyDeathSound != null && FarSoundManager.instance != null)
+                {
+                    FarSoundManager.instance.PlaySound(enemyDeathSound);
                 }
                 dead = true;
             }
@@ -128,7 +131,6 @@ public class Health : MonoBehaviour
     
     public void Respawn()
     {
-        
         dead = false;
         AddHealth(startingHealth);
         anim.ResetTrigger("die");
@@ -142,13 +144,5 @@ public class Health : MonoBehaviour
 
         GetComponent<PlayerMovement>().enabled = true;
         }
-        
-     
-        
     }
-   
-
-    
-    
-
 }
