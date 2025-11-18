@@ -218,8 +218,9 @@ MonoBehaviour:
   iFramesDuration: 0
   numberofFlashes: 0
   dead: 0
-  deathSound: {fileID: 8300000, guid: 1f85767bad2a1a347b12b3b4a094662a, type: 3}
+  deathSound: {fileID: 0}
   hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
+  enemyDeathSound: {fileID: 8300000, guid: 1f85767bad2a1a347b12b3b4a094662a, type: 3}
   deathscreen: {fileID: 0}
   Juice: {fileID: 0}
   bspawn: {fileID: 0}

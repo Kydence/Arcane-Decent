@@ -99,9 +99,9 @@ public class Health : MonoBehaviour
                     GetComponent<Bossmoves>().enabled = false;
                 }
                 
-                if(enemyDeathSound != null && FarSoundManager.instance != null)
+                if(enemyDeathSound != null && CloseSoundManager.instance != null)
                 {
-                    FarSoundManager.instance.PlaySound(enemyDeathSound);
+                    CloseSoundManager.instance.PlaySound(enemyDeathSound);
                 }
                 dead = true;
             }
