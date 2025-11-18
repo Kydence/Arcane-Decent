@@ -40,28 +40,21 @@ public class movingWall : MonoBehaviour
                 }
             }
         }
-         if (goback == true) {
+        else if (goback) {
             if(!begin)
             {
                 if (direction > 0)
                 {
-                    if (ground.position.y < thing + movingDistance)
+                    if (ground.position.y > thing)
                     {
-                        if (ground.position.y > thing)
-                        {
-                            MoveInDirection(-direction);
-                        }
+                        MoveInDirection(-direction);
                     }
-
                 }
                 else
                 {
-                    if (ground.position.y > thing + movingDistance)
+                    if (ground.position.y < thing)
                     {
-                        if (ground.position.y < thing)
-                        {
-                            MoveInDirection(-direction);
-                        }
+                        MoveInDirection(-direction);
                     }
                 }
             }

@@ -831,6 +831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goingDownPlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7497096315031203619, guid: b86399682e88d4f4ab93cc7b188fefbf, type: 3}
+      propertyPath: m_TagString
+      value: Flyingground
+      objectReference: {fileID: 0}
     - target: {fileID: 7759243613369865737, guid: b86399682e88d4f4ab93cc7b188fefbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.7729
@@ -3417,7 +3421,7 @@ MonoBehaviour:
   ground: {fileID: 797974397}
   speed: 1
   direction: 1
-  goback: 0
+  goback: 1
 --- !u!4 &797974397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6116432393143931475, guid: b86399682e88d4f4ab93cc7b188fefbf, type: 3}
@@ -3457,7 +3461,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -6.9127007, y: 1.2944155}
+  m_Offset: {x: -6.7611427, y: 4.1133785}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3467,7 +3471,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.322609, y: 1.2231159}
+  m_Size: {x: 14.830009, y: 6.861042}
   m_EdgeRadius: 0
 --- !u!1 &807213499 stripped
 GameObject:
@@ -4879,11 +4883,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.992
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1016651288002662978, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7716,6 +7720,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5611323144134992116, guid: 893dfc6de6797ee479e1c6c64bebf20c, type: 3}
   m_PrefabInstance: {fileID: 1888568497}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1917330141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7055170458376077748, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
+  m_PrefabInstance: {fileID: 1288043081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cfee2b5d775804f9a723b9fda95e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1917330142 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4118347800389394291, guid: c831516495e86384bb3078dd73df3fcb, type: 3}
+  m_PrefabInstance: {fileID: 1288043081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1e09a3cbb7ec34895c813a3c59462a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1917395169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7724,9 +7750,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2398879728118591283, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: playerMana
+      value: 
+      objectReference: {fileID: 1917330141}
+    - target: {fileID: 3167724005094003994, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1917330142}
     - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Name
       value: Updated UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450734400875247074, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5490416335428092973, guid: ebebcd1ecdc30ca4c8f6c8a41aaf57cd, type: 3}
       propertyPath: m_Pivot.x
