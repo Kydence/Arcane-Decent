@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 8551351352357638101}
   - component: {fileID: 6985148254260245805}
   - component: {fileID: 1808989934179275725}
+  - component: {fileID: 2437738084741416157}
   m_Layer: 8
   m_Name: RangedEnemy
   m_TagString: Untagged
@@ -214,13 +215,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1e09a3cbb7ec34895c813a3c59462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  startingHealth: 6
   iFramesDuration: 0
   numberofFlashes: 0
   dead: 0
   deathSound: {fileID: 0}
   hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
   enemyDeathSound: {fileID: 8300000, guid: 1f85767bad2a1a347b12b3b4a094662a, type: 3}
+  black: {fileID: 0}
   deathscreen: {fileID: 0}
   Juice: {fileID: 0}
   bspawn: {fileID: 0}
@@ -279,6 +281,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2437738084741416157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5415542626365522879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4aedaea6d44624fa34084146575d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &7017548679042667046
 GameObject:
   m_ObjectHideFlags: 0

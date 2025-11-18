@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3378201348233544352}
   - component: {fileID: 8722347581499698346}
   - component: {fileID: 7784831152468900510}
+  - component: {fileID: 8103546340435923539}
   m_Layer: 8
   m_Name: MeleeEnemy
   m_TagString: Enemy
@@ -168,14 +169,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1e09a3cbb7ec34895c813a3c59462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  startingHealth: 6
   iFramesDuration: 0
   numberofFlashes: 0
   dead: 0
   deathSound: {fileID: 0}
   hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
   enemyDeathSound: {fileID: 8300000, guid: 1f85767bad2a1a347b12b3b4a094662a, type: 3}
+  black: {fileID: 0}
   deathscreen: {fileID: 0}
   Juice: {fileID: 0}
   bspawn: {fileID: 0}
   bquit: {fileID: 0}
+--- !u!114 &8103546340435923539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921262135344254936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4aedaea6d44624fa34084146575d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
