@@ -1756,6 +1756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraController: {fileID: 270112780}
   bossMusic: {fileID: 507507556}
+  bosshealth: {fileID: 1913485849}
 --- !u!1001 &707846231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4076,7 +4077,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1913485850
 RectTransform:
   m_ObjectHideFlags: 0
